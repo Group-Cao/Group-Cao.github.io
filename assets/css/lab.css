@@ -1,0 +1,40 @@
+:root {
+  --lab-accent: #236c65;
+  --lab-wash: #f2f7f5;
+  --global-link-color: #236c65;
+  --global-link-color-hover: #164d47;
+  --global-link-color-visited: #236c65;
+}
+html[data-theme="dark"] {
+  --lab-accent: #9cd7c9;
+  --lab-wash: #2f3e3b;
+  --global-link-color: #9cd7c9;
+  --global-link-color-hover: #c4eadf;
+  --global-link-color-visited: #9cd7c9;
+}
+.page__title { font-family: Georgia, "Times New Roman", serif; line-height: 1.15; }
+.masthead__menu-item--lg a { font-family: Georgia, "Times New Roman", serif; font-size: 1.2em; }
+.author__avatar img { border-radius: 18px; }
+.lab-eyebrow { color: var(--lab-accent); font-size: .68em !important; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
+.lab-intro { font-size: 1.12em !important; line-height: 1.75; max-width: 38em; }
+.lab-note { color: var(--global-text-color); font-size: .8em !important; padding: 1em 1.25em; background: var(--lab-wash); border-left: 3px solid var(--lab-accent); }
+.lab-links { padding: 0; list-style: none; margin: 1.75em 0; border-top: 1px solid var(--global-border-color); }
+.lab-links li { margin: 0; border-bottom: 1px solid var(--global-border-color); }
+.lab-links a { display: flex; justify-content: space-between; align-items: center; gap: 1em; padding: .85em 0; text-decoration: none; }
+.lab-links a:hover, .lab-links a:focus-visible { text-decoration: underline; }
+.lab-links span { color: var(--global-text-color); font-size: .8em; text-align: right; }
+.lab-entry { margin-bottom: 2.5em; }
+.lab-research-image { max-height: 340px; object-fit: contain; }
+.lab-person { display: flex; align-items: flex-start; gap: 1.5em; padding: 1.5em 0; border-bottom: 1px solid var(--global-border-color); }
+.lab-person h2 { margin-top: 0; padding: 0; border: 0; }
+.lab-person img { width: 112px; height: 112px; object-fit: cover; border-radius: 8px; }
+.lab-role { color: var(--lab-accent); font-size: .85em !important; }
+.lab-news { list-style: none; padding: 0; }
+.lab-news li { margin-bottom: .8em; }
+.lab-news time { font-size: .75em; color: var(--global-text-color); margin-right: 1em; }
+.greedy-nav button:focus-visible, #theme-toggle a:focus-visible { outline: 2px solid var(--lab-accent); outline-offset: 4px; }
+@media (max-width: 600px) {
+  .lab-links a { display: block; }
+  .lab-links span { display: block; text-align: left; margin-top: .2em; }
+  .lab-person { flex-direction: column; gap: 1em; }
+}

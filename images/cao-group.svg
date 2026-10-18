@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title">
+  <title id="title">Cao Group monogram</title>
+  <rect width="240" height="240" rx="40" fill="#163c4a"/>
+  <path d="M181 67a76 76 0 1 0 0 106" fill="none" stroke="#8bd2bd" stroke-width="2"/>
+  <path d="M195 81a60 60 0 1 0 0 78" fill="none" stroke="#8bd2bd" stroke-width="1" opacity=".35"/>
+  <text x="120" y="135" fill="#fff" font-family="Georgia,serif" font-size="52" text-anchor="middle" letter-spacing="4">CAO</text>
+  <text x="120" y="165" fill="#b7dfd5" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" letter-spacing="5">GROUP</text>
+</svg>

@@ -1,0 +1,17 @@
+# Add confirmed group information here. Empty sections show a short coming-soon message.
+intro: "Welcome to the Cao Group. Our website is taking shape; research, people, and publications will be introduced here soon."
+research: []
+# - title: "Research area"
+#   description: "A short description of the questions and methods."
+#   image: "/images/research-area.jpg"
+people: []
+# - name: "Full name"
+#   role: "Principal investigator"
+#   bio: "A short biography."
+#   photo: "/images/full-name.jpg"
+#   url: "https://example.org/"
+contact:
+  email: ""
+  address: ""
+  map_url: ""
+recruitment: "Details about future opportunities will be posted here."

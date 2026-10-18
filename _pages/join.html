@@ -1,0 +1,20 @@
+---
+layout: single
+title: "Join Us"
+permalink: /join/
+---
+
+<p class="lab-intro">{{ site.data.lab.recruitment | escape }}</p>
+
+<h2>Contact</h2>
+{% if site.data.lab.contact.email != empty %}
+  <p>Email: <a href="mailto:{{ site.data.lab.contact.email | escape }}">{{ site.data.lab.contact.email | escape }}</a></p>
+{% else %}
+  <p>Contact details will be added soon.</p>
+{% endif %}
+{% if site.data.lab.contact.address != empty %}
+  <p>{{ site.data.lab.contact.address | escape | newline_to_br }}</p>
+{% endif %}
+{% if site.data.lab.contact.map_url != empty %}
+  <p><a href="{{ site.data.lab.contact.map_url | escape }}">Find us on the map</a></p>
+{% endif %}

@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "News"
+permalink: /news/
+---
+
+{% if site.posts.size > 0 %}
+  {% for post in site.posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p class="lab-intro">News and updates will appear here.</p>
+  <p>Check back for publications, group activities, and announcements.</p>
+{% endif %}
