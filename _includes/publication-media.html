@@ -1,0 +1,15 @@
+{% assign paper = include.paper %}
+<div class="lab-publication-media">
+  <figure class="lab-paper-figure">
+    <a href="{{ paper.figure | relative_url }}"><img src="{{ paper.figure | relative_url }}" alt="{{ paper.figure_alt | escape }}" loading="lazy"></a>
+    <figcaption>{{ paper.figure_label }} · <a href="{{ paper.figure_source }}">Source</a></figcaption>
+  </figure>
+  <figure class="lab-paper-cover">
+    {% if paper.cover %}
+      <a href="{{ paper.cover | relative_url }}"><img src="{{ paper.cover | relative_url }}" alt="{{ paper.cover_label | escape }}: {{ paper.venue | escape }}{% if paper.volume %}, volume {{ paper.volume }}{% endif %}{% if paper.issue %}, issue {{ paper.issue }}{% endif %}" loading="lazy"></a>
+      <figcaption><a href="{{ paper.cover_source }}">{{ paper.cover_label }}</a></figcaption>
+    {% else %}
+      <div class="lab-cover-note"><span>{{ paper.venue }}</span><p>{{ paper.cover_note }}</p></div>
+    {% endif %}
+  </figure>
+</div>

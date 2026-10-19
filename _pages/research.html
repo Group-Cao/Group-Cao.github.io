@@ -2,17 +2,29 @@
 layout: single
 title: "Research"
 permalink: /research/
+excerpt: "Multiscale enzyme catalyst design, mechanism-guided engineering, hybrid catalysis, and sustainable biosynthesis."
 ---
 
-{% if site.data.lab.research.size > 0 %}
-  {% for area in site.data.lab.research %}
-    <section class="lab-entry">
-      <h2>{{ area.title | escape }}</h2>
-      {% if area.image %}<img class="lab-research-image" src="{{ area.image | relative_url }}" alt="{{ area.title | escape }}" loading="lazy">{% endif %}
-      {{ area.description | markdownify }}
-    </section>
-  {% endfor %}
-{% else %}
-  <p class="lab-intro">Our research overview is coming soon.</p>
-  <p>This page will introduce the group's research questions, approaches, and projects.</p>
-{% endif %}
+<p class="lab-intro">{{ site.data.lab.intro }}</p>
+<p>Our work connects fundamental questions about enzyme function with the design of practical catalytic systems. We combine computation with enzyme engineering, materials synthesis, and biochemical experiments.</p>
+
+<nav class="lab-topic-nav" aria-label="Research themes">
+{% for area in site.data.lab.research %}<a href="#{{ area.id }}">0{{ forloop.index }} {{ area.title }}</a>{% endfor %}
+</nav>
+
+{% for area in site.data.lab.research %}
+<section class="lab-research-section" id="{{ area.id }}">
+  <p class="lab-eyebrow">Research theme 0{{ forloop.index }}</p>
+  <h2>{{ area.title }}</h2>
+  <p class="lab-question">{{ area.question }}</p>
+  <figure class="lab-research-figure">
+    <a href="{{ area.image | relative_url }}"><img src="{{ area.image | relative_url }}" alt="{{ area.image_alt | escape }}" loading="lazy"></a>
+    <figcaption>Representative research figure · <a href="{{ area.image_source }}">{{ area.image_credit }}</a></figcaption>
+  </figure>
+  <p>{{ area.description }}</p>
+  <ul>{% for topic in area.topics %}<li>{{ topic }}</li>{% endfor %}</ul>
+  <p class="lab-related"><strong>Related publications</strong><br>
+  {% for doi in area.papers %}<a href="https://doi.org/{{ doi }}">{{ doi }}</a>{% unless forloop.last %}<br>{% endunless %}{% endfor %}
+  </p>
+</section>
+{% endfor %}

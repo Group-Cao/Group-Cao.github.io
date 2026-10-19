@@ -1,0 +1,11 @@
+---
+layout: single
+---
+
+<p class="lab-publication-authors">{% include publication-authors.html authors=page.authors %}</p>
+<p class="lab-citation"><em>{{ page.venue }}</em> <strong>{{ page.year }}</strong>{% if page.volume != empty %}, {{ page.volume }}{% endif %}{% if page.issue != empty %}({{ page.issue }}){% endif %}{% if page.pages != empty %}, {{ page.pages }}{% endif %}.</p>
+<p>{{ page.summary }}</p>
+{% include publication-media.html paper=page %}
+<p class="lab-doi"><a href="{{ page.paperurl }}">Read the paper · DOI: {{ page.doi }}</a></p>
+<p class="lab-image-credit">Figures and journal artwork are credited to the linked original publication and publisher.</p>
+<p><a href="{{ '/publications/' | relative_url }}">← All publications</a></p>

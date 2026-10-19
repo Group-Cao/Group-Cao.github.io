@@ -1,17 +1,155 @@
-# Add confirmed group information here. Empty sections show a short coming-soon message.
-intro: "Welcome to the Cao Group. Our website is taking shape; research, people, and publications will be introduced here soon."
-research: []
-# - title: "Research area"
-#   description: "A short description of the questions and methods."
-#   image: "/images/research-area.jpg"
-people: []
-# - name: "Full name"
-#   role: "Principal investigator"
-#   bio: "A short biography."
-#   photo: "/images/full-name.jpg"
-#   url: "https://example.org/"
+intro: We design enzyme catalysts across molecular, nanoscale, and mesoscale environments. By combining mechanistic
+  simulation, protein engineering, and materials chemistry, we develop biocatalytic systems for sustainable synthesis
+  and food biotechnology.
+affiliation: School of Food Science and Engineering, South China University of Technology
+research:
+- id: confinement
+  title: Multiscale confinement and biocatalyst materials
+  question: How do spatial organization and local environments control enzyme catalysis?
+  description: We study how confinement changes enzyme conformations, active-site preorganization, and the movement
+    of substrates and intermediates. Our work connects molecular mechanisms to the design of enzyme–material interfaces
+    and organized multienzyme systems.
+  topics:
+  - Mechanisms of confinement-induced activity and stability
+  - Protein-directed mineralization and enzyme encapsulation in MOFs and COFs
+  - Spatial organization, substrate channeling, and cascade catalysis
+  image: /images/research/multiscale-confinement.webp
+  image_alt: Molecular, nanoscale, and multienzyme strategies for controlling enzyme catalysis
+  image_source: https://doi.org/10.1038/s44160-025-00898-1
+  image_credit: Cao et al., Nature Synthesis (2025)
+  papers:
+  - 10.1038/s44160-025-00898-1
+  - 10.1021/acsnano.5c13712
+  - 10.1016/S1872-2067(25)64827-3
+- id: enzyme-design
+  title: Mechanism-guided and AI-assisted enzyme design
+  question: Can we improve enzyme function by understanding the motions and interactions that enable catalysis?
+  description: We combine molecular dynamics, reaction-mechanism calculations, and machine learning with experimental
+    screening. These tools help us identify useful sequence changes, understand activity–stability relationships,
+    and expand substrate scope and selectivity.
+  topics:
+  - Enzyme dynamics and catalysis at solid–liquid interfaces
+  - Sequence–structure–function relationships and data-assisted engineering
+  - Integrated computational prediction and experimental validation
+  image: /images/research/enzyme-design.webp
+  image_alt: PET hydrolase interacting with a polymer surface
+  image_source: https://doi.org/10.1002/anie.202511131
+  image_credit: Chen et al., Angewandte Chemie International Edition (2025)
+  papers:
+  - 10.1002/anie.202511131
+  - 10.1039/D5GC03435C
+- id: hybrid-catalysis
+  title: Chemoenzymatic and electrobiocatalytic synthesis
+  question: How can biological and chemical catalysts work together in compatible reaction environments?
+  description: We investigate hybrid catalysts and reaction platforms that connect the selectivity of enzymes with
+    chemical and electrochemical transformations. Our interests include enzyme–metal interactions, compartmentalized
+    reactions, and the upgrading of simple carbon feedstocks.
+  topics:
+  - Cooperative enzyme–metal catalysis and artificial catalytic microenvironments
+  - Multiphase reaction systems and Pickering emulsions
+  - Electrochemical carbon conversion coupled with biocatalysis
+  image: /images/research/hybrid-catalysis.webp
+  image_alt: Bio–nano interactions and protein participation in metal–organic framework formation
+  image_source: https://doi.org/10.1021/acsnano.5c13712
+  image_credit: Qiao et al., ACS Nano (2025)
+  papers:
+  - 10.1016/j.cej.2025.167562
+  - 10.1039/D5IM00356C
+- id: food-biotechnology
+  title: Sustainable biosynthesis and food biotechnology
+  question: How can engineered enzymes and cells provide efficient routes to useful food and bioactive molecules?
+  description: We develop enzyme cascades and microbial pathways for terpenoids, flavonoids, rare ginsenosides,
+    and related compounds. Our wider food-biotechnology interests include functional materials, molecular recognition,
+    food analysis, and the use of computational methods to understand and improve these systems.
+  topics:
+  - Pathway engineering and orthogonal precursor supply in yeast
+  - Enzyme fusion and immobilization for selective biotransformation
+  - Functional food ingredients, food analysis, and data-informed biotechnology
+  image: /images/research/biosynthesis.webp
+  image_alt: Engineering metabolic routes for biosynthesis in yeast
+  image_source: https://doi.org/10.1038/s41467-024-54298-8
+  image_credit: Li et al., Nature Communications (2024)
+  papers:
+  - 10.1038/s41467-024-54298-8
+  - 10.1016/j.cej.2026.173977
+  - 10.1021/acs.jafc.6c09373
+pi:
+  name: Yufei Cao
+  name_zh: 曹宇飞
+  role: Associate Professor · Principal Investigator
+  photo: /images/people/yufei-cao.jpg
+  bio: Yufei Cao is an Associate Professor in the School of Food Science and Engineering at South China University
+    of Technology, where he supervises doctoral and master’s students. His research combines biocatalysis, enzyme
+    design, computational chemistry and biology, and food biotechnology. He joined SCUT in September 2023 after
+    receiving his Ph.D. from Tsinghua University.
+  email: yufeicao@scut.edu.cn
+  scholar: https://scholar.google.com/citations?user=3ebq8z8AAAAJ&hl=en
+  orcid: https://orcid.org/0000-0002-4742-4009
+  university_profile: https://www2.scut.edu.cn/sp/2023/1012/c39842a570666/page.htm
+postdocs:
+- name: Zhenru Zhou
+  name_zh: 周珍如
+- name: Canyu Zhang
+  name_zh: 张灿钰
+doctoral_students:
+- name: Guan Zheng
+  name_zh: 郑灌
+  year: 2026
+  track: Professional degree
+- name: Qi Zheng
+  name_zh: 郑琪
+  year: 2026
+  track: Academic degree
+- name: Hui Liang
+  name_zh: 梁慧
+  year: 2025
+  track: Academic degree
+- name: Weili Qiao
+  name_zh: 乔炜利
+  year: 2024
+  track: Academic degree
+masters_students:
+- name: Rong Sun
+  name_zh: 孙荣
+  year: 2026
+  track: Professional degree
+- name: Boyang Wu
+  name_zh: 吴博炀
+  year: 2026
+  track: Academic degree
+- name: Chaoyang Wang
+  name_zh: 王朝阳
+  year: 2025
+  track: Professional degree
+- name: Yuyan Zhang
+  name_zh: 张雨雁
+  year: 2025
+  track: Academic degree
+- name: Ke-siyi Ma
+  name_zh: 马可思意
+  year: 2025
+  track: Academic degree
+- name: Zifan Zhang
+  name_zh: 张子凡
+  year: 2024
+  track: Professional degree
+- name: Junrong Yang
+  name_zh: 杨骏荣
+  year: 2024
+  track: Professional degree
+- name: Pengsheng Yang
+  name_zh: 杨朋升
+  year: 2024
+  track: Academic degree
 contact:
-  email: ""
-  address: ""
-  map_url: ""
-recruitment: "Details about future opportunities will be posted here."
+  email: yufeicao@scut.edu.cn
+  address: 'Room 409, Building 13
+
+    South China University of Technology
+
+    381 Wushan Road, Tianhe District
+
+    Guangzhou 510640, China'
+  map_url: ''
+recruitment: If you are interested in our research, please contact Yufei Cao to discuss opportunities and the relevant
+  SCUT application procedures.

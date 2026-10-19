@@ -2,40 +2,28 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+excerpt: "Research articles and reviews published since Yufei Cao joined SCUT in September 2023."
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find our articles on <a href="{{site.author.googlescholar}}">our Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-{% if site.publications.size == 0 %}
-  <p class="lab-intro">Our publication list is coming soon.</p>
-  <p>Journal articles, conference papers, and other scholarly work will be listed here.</p>
-{% endif %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+<p class="lab-intro">Research articles and reviews published since joining SCUT in September 2023.</p>
+<p class="lab-profile-links"><a href="{{ site.data.lab.pi.scholar }}">Google Scholar</a> · <a href="{{ site.data.lab.pi.orcid }}">ORCID</a></p>
+{% assign year_groups = site.publications | group_by: 'year' | sort: 'name' | reverse %}
+<nav class="lab-year-nav" aria-label="Publication years">
+{% for group in year_groups %}<a href="#year-{{ group.name }}">{{ group.name }} <span>{{ group.items.size }}</span></a>{% endfor %}
+</nav>
+{% for group in year_groups %}
+<section id="year-{{ group.name }}" class="lab-publication-year">
+  <h2>{{ group.name }}</h2>
+  {% assign papers = group.items | sort: 'date' | reverse %}
+  {% for paper in papers %}
+  <article class="lab-publication">
+    <p class="lab-pub-journal">{{ paper.venue }}{% if paper.volume != empty %} · {{ paper.volume }}{% endif %}{% if paper.issue != empty %}({{ paper.issue }}){% endif %}{% if paper.pages != empty %} · {{ paper.pages }}{% endif %}</p>
+    <h3><a href="{{ paper.url | relative_url }}">{{ paper.title }}</a></h3>
+    <details class="lab-author-list"><summary>Authors</summary><p>{% include publication-authors.html authors=paper.authors %}</p></details>
+    <p class="lab-publication-summary">{{ paper.summary }}</p>
+    {% include publication-media.html paper=paper %}
+    <p class="lab-doi"><a href="{{ paper.paperurl }}">DOI: {{ paper.doi }}</a></p>
+  </article>
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+</section>
+{% endfor %}

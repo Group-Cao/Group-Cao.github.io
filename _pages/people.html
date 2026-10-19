@@ -4,20 +4,43 @@ title: "People"
 permalink: /people/
 ---
 
-{% if site.data.lab.people.size > 0 %}
-  <div class="lab-people">
-  {% for person in site.data.lab.people %}
-    <section class="lab-person">
-      {% if person.photo %}<img src="{{ person.photo | relative_url }}" alt="{{ person.name | escape }}" width="112" height="112" loading="lazy">{% endif %}
-      <div>
-        <h2>{% if person.url %}<a href="{{ person.url | escape }}">{{ person.name | escape }}</a>{% else %}{{ person.name | escape }}{% endif %}</h2>
-        <p class="lab-role">{{ person.role | escape }}</p>
-        {% if person.bio %}{{ person.bio | markdownify }}{% endif %}
-      </div>
-    </section>
-  {% endfor %}
+<h2 class="lab-section-title">Principal Investigator</h2>
+<section class="lab-pi">
+  <img src="{{ site.data.lab.pi.photo | relative_url }}" alt="Yufei Cao" width="156" height="226">
+  <div>
+    <h2><a href="{{ '/yufei-cao/' | relative_url }}">{{ site.data.lab.pi.name }}</a> <span class="lab-chinese-name" lang="zh">{{ site.data.lab.pi.name_zh }}</span></h2>
+    <p class="lab-role">{{ site.data.lab.pi.role }}</p>
+    <p>{{ site.data.lab.pi.bio }}</p>
+    <p class="lab-profile-links"><a href="{{ '/yufei-cao/' | relative_url }}">Biography &amp; education</a> · <a href="{{ site.data.lab.pi.scholar }}">Google Scholar</a> · <a href="{{ site.data.lab.pi.orcid }}">ORCID</a></p>
   </div>
-{% else %}
-  <p class="lab-intro">Meet the group — profiles coming soon.</p>
-  <p>Our principal investigator, students, and collaborators will be introduced here.</p>
-{% endif %}
+</section>
+
+<h2>Postdoctoral Researchers</h2>
+<div class="lab-team-grid">
+{% for person in site.data.lab.postdocs %}
+  <section class="lab-member">
+    <h3>{{ person.name }} <span lang="zh">{{ person.name_zh }}</span></h3>
+    <p>Postdoctoral researcher</p>
+  </section>
+{% endfor %}
+</div>
+
+<h2>Doctoral Students</h2>
+<div class="lab-team-grid">
+{% for person in site.data.lab.doctoral_students %}
+  <section class="lab-member">
+    <h3>{{ person.name }} <span lang="zh">{{ person.name_zh }}</span></h3>
+    <p>Joined {{ person.year }} · {{ person.track }}</p>
+  </section>
+{% endfor %}
+</div>
+
+<h2>Master’s Students</h2>
+<div class="lab-team-grid">
+{% for person in site.data.lab.masters_students %}
+  <section class="lab-member">
+    <h3>{{ person.name }} <span lang="zh">{{ person.name_zh }}</span></h3>
+    <p>Joined {{ person.year }} · {{ person.track }}</p>
+  </section>
+{% endfor %}
+</div>
