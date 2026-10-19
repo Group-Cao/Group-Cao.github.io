@@ -33,7 +33,5 @@ figure: /images/publications/pickering-emulsion.webp
 figure_label: Figure 1
 figure_alt: Preparation and characterization of the agar-based Pickering emulsion.
 figure_source: https://doi.org/10.1016/j.cej.2025.167562
-cover: /images/covers/cej-522.webp
-cover_source: https://doi.org/10.1016/j.cej.2025.167562
-cover_label: Publisher journal cover
+period: after_scut
 ---

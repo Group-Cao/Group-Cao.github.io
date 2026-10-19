@@ -35,5 +35,5 @@ figure: /images/publications/petase-interface.webp
 figure_label: Figure 1
 figure_alt: PETase interaction with PET at the solid–liquid interface.
 figure_source: https://doi.org/10.1002/anie.202511131
-cover_note: Issue cover to be added
+period: after_scut
 ---

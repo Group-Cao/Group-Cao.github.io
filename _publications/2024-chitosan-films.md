@@ -34,7 +34,5 @@ figure: /images/publications/chitosan-films.webp
 figure_label: Figure 2
 figure_alt: Antimicrobial mechanisms of chitosan and essential-oil composite systems.
 figure_source: https://doi.org/10.1016/j.ijbiomac.2024.133242
-cover: /images/covers/ijbiomac-274.webp
-cover_source: https://doi.org/10.1016/j.ijbiomac.2024.133242
-cover_label: Publisher journal cover
+period: after_scut
 ---

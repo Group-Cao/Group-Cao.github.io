@@ -39,4 +39,5 @@ figure_source: https://doi.org/10.1021/acs.jafc.6c09373
 cover: /images/covers/jafc-74-35.webp
 cover_source: https://pubs.acs.org/jafcau/issue/74/35
 cover_label: Issue cover
+period: after_scut
 ---

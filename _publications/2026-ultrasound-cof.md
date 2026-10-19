@@ -41,4 +41,5 @@ figure_source: https://doi.org/10.1021/jacs.6c13996
 cover: /images/covers/jacs-148-37.webp
 cover_source: https://pubs.acs.org/jacsat/issue/148/37
 cover_label: Issue cover
+period: after_scut
 ---

@@ -39,5 +39,5 @@ figure: /images/publications/isopentenol-terpenoids.webp
 figure_label: Figure 1
 figure_alt: Analysis of the isopentenol utilization pathway in yeast.
 figure_source: https://doi.org/10.1038/s41467-024-54298-8
-cover_note: Continuous publication · No issue cover
+period: after_scut
 ---

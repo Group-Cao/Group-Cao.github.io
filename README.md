@@ -8,7 +8,7 @@ An English-language research group website built with [Academic Pages](https://a
 - Group introduction, research, people, and contact: `_data/lab.yml`
 - Pages: `_pages/`; publications: `_publications/`; news: `_posts/`
 
-The site includes the PI profile, four research themes, group members, and 20 journal articles published after September 2023. Each article has a representative figure and a DOI link. Verified issue covers are distinguished from publisher journal covers; unavailable or inapplicable covers are labelled explicitly.
+The site includes the PI profile, four research themes, group members, 20 journal articles published after September 2023, and eight earlier first-author or co-first-author papers. Earlier papers use text-only citations. SCUT papers have representative figures; only verified issue covers are displayed. Student listings show names and years.
 
 ## Deployment
 

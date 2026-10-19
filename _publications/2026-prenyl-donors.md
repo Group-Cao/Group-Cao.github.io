@@ -37,7 +37,5 @@ figure: /images/publications/prenyl-donors.webp
 figure_label: Figure 1
 figure_alt: Orthogonal routes for prenyl-donor supply in engineered yeast.
 figure_source: https://doi.org/10.1016/j.cej.2026.173977
-cover: /images/covers/cej-531.webp
-cover_source: https://doi.org/10.1016/j.cej.2026.173977
-cover_label: Publisher journal cover
+period: after_scut
 ---

@@ -2,15 +2,19 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-excerpt: "Research articles and reviews published since Yufei Cao joined SCUT in September 2023."
+excerpt: "Publications at SCUT and earlier first-author and co-first-author research."
 ---
 
-<p class="lab-intro">Research articles and reviews published since joining SCUT in September 2023.</p>
+<p class="lab-intro">Research articles and reviews from the Cao Group, alongside earlier first-author and co-first-author work.</p>
 <p class="lab-profile-links"><a href="{{ site.data.lab.pi.scholar }}">Google Scholar</a> · <a href="{{ site.data.lab.pi.orcid }}">ORCID</a></p>
-{% assign year_groups = site.publications | group_by: 'year' | sort: 'name' | reverse %}
+{% assign scut_papers = site.publications | where: 'period', 'after_scut' %}
+{% assign earlier_papers = site.publications | where: 'period', 'before_scut' %}
+{% assign year_groups = scut_papers | group_by: 'year' | sort: 'name' | reverse %}
 <nav class="lab-year-nav" aria-label="Publication years">
 {% for group in year_groups %}<a href="#year-{{ group.name }}">{{ group.name }} <span>{{ group.items.size }}</span></a>{% endfor %}
+<a href="#earlier-publications">Before SCUT <span>{{ earlier_papers.size }}</span></a>
 </nav>
+<h2 class="lab-period-title">At SCUT <span>September 2023–present</span></h2>
 {% for group in year_groups %}
 <section id="year-{{ group.name }}" class="lab-publication-year">
   <h2>{{ group.name }}</h2>
@@ -27,3 +31,20 @@ excerpt: "Research articles and reviews published since Yufei Cao joined SCUT in
   {% endfor %}
 </section>
 {% endfor %}
+<section id="earlier-publications" class="lab-earlier-publications">
+  <h2 class="lab-period-title">Before SCUT</h2>
+  <p class="lab-profile-links">First-author and co-first-author papers only. † Equal contribution.</p>
+  {% assign earlier_groups = earlier_papers | group_by: 'year' | sort: 'name' | reverse %}
+  {% for group in earlier_groups %}
+  <h3 class="lab-earlier-year">{{ group.name }}</h3>
+  {% assign papers = group.items | sort: 'date' | reverse %}
+  {% for paper in papers %}
+  <article class="lab-earlier-paper">
+    <h4><a href="{{ paper.paperurl }}">{{ paper.title }}</a></h4>
+    <p class="lab-earlier-authors">{% include publication-authors.html authors=paper.authors %}</p>
+    <p class="lab-pub-journal">{{ paper.venue }} · {{ paper.year }}{% if paper.volume != empty %} · {{ paper.volume }}{% endif %}{% if paper.issue != empty %}({{ paper.issue }}){% endif %}{% if paper.pages != empty %} · {{ paper.pages }}{% endif %}</p>
+    <p class="lab-doi"><a href="{{ paper.paperurl }}">DOI: {{ paper.doi }}</a></p>
+  </article>
+  {% endfor %}
+  {% endfor %}
+</section>

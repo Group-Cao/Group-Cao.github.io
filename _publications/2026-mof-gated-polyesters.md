@@ -51,5 +51,5 @@ figure: /images/publications/mof-gated-polyesters.webp
 figure_label: Figure 1
 figure_alt: Framework-gated biocatalysis during polyester processing, use, and triggered depolymerization.
 figure_source: https://pmc.ncbi.nlm.nih.gov/articles/PMC13528521/
-cover_note: Issue cover to be added
+period: after_scut
 ---

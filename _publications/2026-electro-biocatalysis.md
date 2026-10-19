@@ -36,4 +36,5 @@ figure_source: https://doi.org/10.1039/d5im00356c
 cover: /images/covers/industrial-chemistry-4-4.webp
 cover_source: https://pubs.rsc.org/en/journals/journalissues/im#!issueid=im004004
 cover_label: Issue cover
+period: after_scut
 ---

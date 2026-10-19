@@ -36,4 +36,5 @@ figure_source: https://doi.org/10.1021/acsnano.5c13712
 cover: /images/covers/acs-nano-19-37.webp
 cover_source: https://pubs.acs.org/ancac3/issue/19/37
 cover_label: Issue cover
+period: after_scut
 ---

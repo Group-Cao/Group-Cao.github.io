@@ -34,7 +34,5 @@ figure: /images/publications/metal-phenolic-networks.webp
 figure_label: Graphical abstract
 figure_alt: Properties and applications of metal–phenolic networks.
 figure_source: https://doi.org/10.1016/j.tifs.2026.105587
-cover: /images/covers/tifs-170.webp
-cover_source: https://doi.org/10.1016/j.tifs.2026.105587
-cover_label: Publisher journal cover
+period: after_scut
 ---

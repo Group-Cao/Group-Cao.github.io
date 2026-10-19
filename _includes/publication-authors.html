@@ -1,1 +1,1 @@
-{% for author in include.authors %}{% if author.highlight %}<strong>{{ author.name | escape }}</strong>{% else %}{{ author.name | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+{% for author in include.authors %}{% if author.highlight %}<strong>{{ author.name | escape }}</strong>{% else %}{{ author.name | escape }}{% endif %}{% if author.equal_contribution %}<sup>†</sup>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}

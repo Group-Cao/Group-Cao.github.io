@@ -76,4 +76,5 @@ figure_source: https://doi.org/10.1038/s41557-025-02061-x
 cover: /images/covers/nature-chemistry-18-4.webp
 cover_source: https://www.nature.com/nchem/volumes/18/issues/4
 cover_label: Issue cover
+period: after_scut
 ---

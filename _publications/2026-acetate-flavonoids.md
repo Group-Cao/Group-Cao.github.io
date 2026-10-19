@@ -37,5 +37,5 @@ figure: /images/publications/acetate-flavonoids.webp
 figure_label: Supporting Figure S7
 figure_alt: Phloretin production from acetate in engineered yeast.
 figure_source: https://acs.figshare.com/articles/journal_contribution/Metabolic_Engineering_of_Saccharomyces_cerevisiae_for_Flavonoid_Synthesis_from_Acetate/34557390
-cover_note: Online first · Issue not yet assigned
+period: after_scut
 ---

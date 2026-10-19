@@ -40,4 +40,5 @@ figure_source: https://doi.org/10.1038/s44160-025-00898-1
 cover: /images/covers/nature-synthesis-4-11.webp
 cover_source: https://www.nature.com/natsynth/volumes/4/issues/11
 cover_label: Issue cover
+period: after_scut
 ---

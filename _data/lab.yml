@@ -92,55 +92,43 @@ postdocs:
 - name: Canyu Zhang
   name_zh: 张灿钰
 doctoral_students:
-- name: Guan Zheng
-  name_zh: 郑灌
+- name: Ying Zheng
+  name_zh: 郑滢
   year: 2026
-  track: Professional degree
 - name: Qi Zheng
   name_zh: 郑琪
   year: 2026
-  track: Academic degree
 - name: Hui Liang
   name_zh: 梁慧
   year: 2025
-  track: Academic degree
 - name: Weili Qiao
   name_zh: 乔炜利
   year: 2024
-  track: Academic degree
 masters_students:
 - name: Rong Sun
   name_zh: 孙荣
   year: 2026
-  track: Professional degree
 - name: Boyang Wu
   name_zh: 吴博炀
   year: 2026
-  track: Academic degree
 - name: Chaoyang Wang
   name_zh: 王朝阳
   year: 2025
-  track: Professional degree
 - name: Yuyan Zhang
   name_zh: 张雨雁
   year: 2025
-  track: Academic degree
 - name: Ke-siyi Ma
   name_zh: 马可思意
   year: 2025
-  track: Academic degree
 - name: Zifan Zhang
   name_zh: 张子凡
   year: 2024
-  track: Professional degree
 - name: Junrong Yang
   name_zh: 杨骏荣
   year: 2024
-  track: Professional degree
 - name: Pengsheng Yang
   name_zh: 杨朋升
   year: 2024
-  track: Academic degree
 contact:
   email: yufeicao@scut.edu.cn
   address: 'Room 409, Building 13

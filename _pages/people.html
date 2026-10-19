@@ -30,7 +30,7 @@ permalink: /people/
 {% for person in site.data.lab.doctoral_students %}
   <section class="lab-member">
     <h3>{{ person.name }} <span lang="zh">{{ person.name_zh }}</span></h3>
-    <p>Joined {{ person.year }} · {{ person.track }}</p>
+    <p>{{ person.year }}</p>
   </section>
 {% endfor %}
 </div>
@@ -40,7 +40,7 @@ permalink: /people/
 {% for person in site.data.lab.masters_students %}
   <section class="lab-member">
     <h3>{{ person.name }} <span lang="zh">{{ person.name_zh }}</span></h3>
-    <p>Joined {{ person.year }} · {{ person.track }}</p>
+    <p>{{ person.year }}</p>
   </section>
 {% endfor %}
 </div>

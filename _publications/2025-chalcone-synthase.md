@@ -36,5 +36,5 @@ figure: /images/publications/chalcone-synthase.webp
 figure_label: Figure 1
 figure_alt: A biosynthetic pathway for phloretin and related flavonoids.
 figure_source: https://doi.org/10.1039/d5gc03435c
-cover_note: Issue cover to be added
+period: after_scut
 ---

@@ -32,5 +32,5 @@ figure: /images/publications/gastrodin.webp
 figure_label: Graphical abstract
 figure_alt: A glycosyltransferase engineering workflow for gastrodin biosynthesis.
 figure_source: https://doi.org/10.1016/j.fbio.2026.109274
-cover_note: Issue cover to be added
+period: after_scut
 ---

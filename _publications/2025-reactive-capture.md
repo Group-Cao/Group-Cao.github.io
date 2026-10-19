@@ -64,5 +64,5 @@ figure: /images/publications/reactive-capture.webp
 figure_label: Figure 1
 figure_alt: A redox-active polymer–copper catalyst for reactive capture and CO2 electrosynthesis.
 figure_source: https://doi.org/10.1038/s41467-025-58756-9
-cover_note: Continuous publication · No issue cover
+period: after_scut
 ---

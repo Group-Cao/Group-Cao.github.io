@@ -33,5 +33,5 @@ figure: /images/publications/modified-dna.webp
 figure_label: Figure 1
 figure_alt: Chemical modification strategies for functional DNA.
 figure_source: https://doi.org/10.1039/d5sc06474k
-cover_note: Issue cover to be added
+period: after_scut
 ---

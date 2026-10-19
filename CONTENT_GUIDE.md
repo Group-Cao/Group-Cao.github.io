@@ -12,6 +12,7 @@ This website uses [Academic Pages](https://academicpages.github.io/markdown/) wi
 - `files/`: approved public downloads only. Original PDFs, CVs, application documents, and presentations remain outside the published site.
 
 Student IDs and private contact details are not published. English names can be corrected in `_data/lab.yml` without changing page templates.
+Student records contain the name and year only; do not add academic/professional degree tracks to the page.
 
 ## Add a publication
 
@@ -26,6 +27,7 @@ layout: publication
 permalink: /publication/short-title/
 date: YYYY-MM-DD
 year: YYYY
+period: after_scut
 venue: "Journal name"
 volume: "1"
 issue: "1"
@@ -46,16 +48,16 @@ cover_source: "https://publisher.example/verified-issue-page"
 ---
 ```
 
-Use the issue year in `year` and the first online date in `date`. Check publisher metadata and the full author list. Do not add preprints or translated editions as duplicate articles. Quote YAML values that contain colons or other special characters.
+Use the issue year in `year` and the verified first online date in `date` (or a verified issue date if no online date is available). Set `period: after_scut` for papers after September 2023. For earlier papers use `period: before_scut`, include only confirmed first/co-first author papers, and omit figures and covers. The earlier-paper section displays citations only. Set `equal_contribution: true` on authors with a verified equal-contribution note. Check publisher metadata and the full author list. Do not add preprints or translated editions as duplicate articles. Quote YAML values that contain colons or other special characters.
 
 Use an actual figure or graphical abstract from the paper and credit its source. Retain figure labels, axes, and legends; do not recreate scientific results. Supporting figures must be labelled as such. Convert images to a web-friendly format and strip unnecessary metadata.
 
-An `Issue cover` must match the paper's journal, volume, and issue. Use `Publisher journal cover` for generic publisher artwork. If no image is available, omit `cover`, `cover_label`, and `cover_source`, and add a `cover_note` such as `Issue cover to be added`, `Online first · Issue not yet assigned`, or `Continuous publication · No issue cover`. Never substitute a different issue's artwork.
+An `Issue cover` must match the paper's journal, volume, and issue. If no verified image is available, omit `cover`, `cover_label`, and `cover_source`; the page displays no cover information or empty placeholder. Do not display generic publisher artwork as an issue cover or substitute another issue's artwork.
 
 ### Cover status at the October 2026 update
 
 - 8 verified issue covers.
-- 4 generic publisher covers: Chemical Engineering Journal volumes 522 and 531, Trends in Food Science & Technology volume 170, and International Journal of Biological Macromolecules volume 274.
+- 4 generic publisher covers were removed from display: Chemical Engineering Journal volumes 522 and 531, Trends in Food Science & Technology volume 170, and International Journal of Biological Macromolecules volume 274. Only add replacements if an actual corresponding issue cover can be verified.
 - 5 issue covers awaiting source images: Angewandte Chemie International Edition 64(37) and 65(36), Chemical Science 17(3), Green Chemistry 27(40), and Food Bioscience 82.
 - 2 Nature Communications articles use continuous publication without conventional issue covers. The October 16, 2026 JAFC article has not yet been assigned an issue.
 

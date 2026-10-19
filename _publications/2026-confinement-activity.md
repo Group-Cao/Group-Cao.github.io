@@ -36,4 +36,5 @@ figure_source: https://doi.org/10.1016/s1872-2067(25)64827-3
 cover: /images/covers/cjcatal-81.webp
 cover_source: https://www.cjcatal.com/EN/volumn/volumn_2216.shtml
 cover_label: Issue cover
+period: after_scut
 ---
