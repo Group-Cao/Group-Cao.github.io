@@ -9,6 +9,7 @@ This website uses [Academic Pages](https://academicpages.github.io/markdown/) wi
 - `_data/navigation.yml`: menu labels and order.
 - `_pages/about.md`: homepage structure.
 - `images/`: group photos, member portraits, and research images. Use `/images/filename.jpg` paths in the data file.
+- `images/branding/`: the selected enhanced A group logo. The original PNG is retained; a resized WebP is used for the sidebar and a PNG thumbnail for the favicon. Keep the complete composition when preparing display sizes.
 - `files/`: approved public downloads only. Original PDFs, CVs, application documents, and presentations remain outside the published site.
 
 Student IDs and private contact details are not published. English names can be corrected in `_data/lab.yml` without changing page templates.
