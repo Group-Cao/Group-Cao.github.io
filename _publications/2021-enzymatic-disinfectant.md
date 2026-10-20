@@ -16,7 +16,11 @@ paperurl: https://doi.org/10.1021/acs.langmuir.0c02911
 authors:
 - name: Yufei Cao
   highlight: true
+  first_author: true
+  corresponding_author: false
 - name: Jun Ge
   highlight: false
+  first_author: false
+  corresponding_author: true
 authorship: First author
 ---

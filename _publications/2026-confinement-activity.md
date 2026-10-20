@@ -15,16 +15,31 @@ paperurl: https://doi.org/10.1016/s1872-2067(25)64827-3
 authors:
 - name: Yufei Cao
   highlight: true
+  first_author: true
+  corresponding_author: true
+  equal_contribution: true
 - name: Shuang Chen
   highlight: false
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Hui Liang
   highlight: false
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Junrong Yang
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Wenyong Lou
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Jun Ge
   highlight: false
+  first_author: false
+  corresponding_author: true
 excerpt: Experiments and molecular simulations reveal how confinement changes the enthalpic and entropic contributions
   to enzyme catalysis.
 summary: Experiments and molecular simulations reveal how confinement changes the enthalpic and entropic contributions

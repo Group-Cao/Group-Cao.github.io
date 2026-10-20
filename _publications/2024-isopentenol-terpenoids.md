@@ -15,22 +15,40 @@ paperurl: https://doi.org/10.1038/s41467-024-54298-8
 authors:
 - name: Guangjian Li
   highlight: false
+  first_author: true
+  corresponding_author: false
 - name: Hui Liang
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Ruichen Gao
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Ling Qin
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Pei Xu
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Mingtao Huang
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Min-Hua Zong
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Yufei Cao
   highlight: true
+  first_author: false
+  corresponding_author: true
 - name: Wen-Yong Lou
   highlight: false
+  first_author: false
+  corresponding_author: true
 excerpt: Metabolic adaptation and enzyme engineering enable efficient terpenoid biosynthesis from isopentenol in
   yeast.
 summary: Metabolic adaptation and enzyme engineering enable efficient terpenoid biosynthesis from isopentenol in

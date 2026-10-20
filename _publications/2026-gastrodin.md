@@ -16,16 +16,30 @@ paperurl: https://doi.org/10.1016/j.fbio.2026.109274
 authors:
 - name: Yuyang Pan
   highlight: false
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Yufei Zhang
   highlight: false
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Dijia Ji
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Ling Qin
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Yufei Cao
   highlight: true
+  first_author: false
+  corresponding_author: false
 - name: Mingtao Huang
   highlight: false
+  first_author: false
+  corresponding_author: true
 excerpt: Discovery and engineering of a glycosyltransferase improve whole-cell gastrodin biosynthesis in yeast.
 summary: Discovery and engineering of a glycosyltransferase improve whole-cell gastrodin biosynthesis in yeast.
 figure: /images/publications/gastrodin.webp

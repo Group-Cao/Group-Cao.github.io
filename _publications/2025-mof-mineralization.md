@@ -15,16 +15,30 @@ paperurl: https://doi.org/10.1021/acsnano.5c13712
 authors:
 - name: Weili Qiao
   highlight: false
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Canyu Zhang
   highlight: false
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Hui Liang
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Wenyong Lou
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Jun Ge
   highlight: false
+  first_author: false
+  corresponding_author: true
 - name: Yufei Cao
   highlight: true
+  first_author: false
+  corresponding_author: true
 excerpt: Molecular simulations and experiments explain how protein–framework interactions guide MOF nucleation and
   growth.
 summary: Molecular simulations and experiments explain how protein–framework interactions guide MOF nucleation and

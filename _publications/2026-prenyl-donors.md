@@ -15,22 +15,42 @@ paperurl: https://doi.org/10.1016/j.cej.2026.173977
 authors:
 - name: Guangjian Li
   highlight: false
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Pan Li
   highlight: false
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Zhiyao Wang
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Jiayan Lyu
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Mei Li
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Pengsheng Yang
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Jingwen Zhou
   highlight: false
+  first_author: false
+  corresponding_author: true
 - name: Yufei Cao
   highlight: true
+  first_author: false
+  corresponding_author: true
 - name: Wen-Yong Lou
   highlight: false
+  first_author: false
+  corresponding_author: true
 excerpt: Engineering prenyl-donor supply establishes orthogonal pathways for prenylated-compound synthesis in yeast.
 summary: Engineering prenyl-donor supply establishes orthogonal pathways for prenylated-compound synthesis in yeast.
 figure: /images/publications/prenyl-donors.webp

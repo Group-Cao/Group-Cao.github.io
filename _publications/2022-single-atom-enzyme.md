@@ -17,20 +17,36 @@ authors:
 - name: Xiaoyang Li
   highlight: false
   equal_contribution: true
+  first_author: true
+  corresponding_author: false
 - name: Yufei Cao
   highlight: true
   equal_contribution: true
+  first_author: true
+  corresponding_author: false
 - name: Kai Luo
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Lin Zhang
   highlight: false
+  first_author: false
+  corresponding_author: true
 - name: Yunxiu Bai
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Jiarong Xiong
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Richard N. Zare
   highlight: false
+  first_author: false
+  corresponding_author: true
 - name: Jun Ge
   highlight: false
+  first_author: false
+  corresponding_author: true
 authorship: Co-first author
 ---

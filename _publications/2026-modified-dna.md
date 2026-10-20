@@ -15,16 +15,28 @@ paperurl: https://doi.org/10.1039/d5sc06474k
 authors:
 - name: Canyu Zhang
   highlight: false
+  first_author: true
+  corresponding_author: false
 - name: Ke-siyi Ma
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Zifan Zhang
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Wenyong lou
   highlight: false
+  first_author: false
+  corresponding_author: true
 - name: Hongzhou Gu
   highlight: false
+  first_author: false
+  corresponding_author: true
 - name: Yufei Cao
   highlight: true
+  first_author: false
+  corresponding_author: true
 excerpt: This review explores chemical modifications that expand the stability and functional capabilities of DNA
   aptamers and DNAzymes.
 summary: This review explores chemical modifications that expand the stability and functional capabilities of DNA

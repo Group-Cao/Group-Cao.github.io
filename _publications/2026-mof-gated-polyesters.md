@@ -15,36 +15,71 @@ paperurl: https://doi.org/10.1002/anie.4831016
 authors:
 - name: Shitong Cui
   highlight: false
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Jing Tian
   highlight: false
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Mengyu Zhu
   highlight: false
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Zihan Liu
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Yufei Cao
   highlight: true
+  first_author: false
+  corresponding_author: false
 - name: Yu Liu
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Yuxiao Feng
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Wanghui Xu
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Weijian Lai
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Hongyi Yang
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Jun Xu
   highlight: false
+  first_author: false
+  corresponding_author: true
 - name: Baohua Guo
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Lin Qiu
   highlight: false
+  first_author: false
+  corresponding_author: true
 - name: Zhenzhong Yang
   highlight: false
+  first_author: false
+  corresponding_author: true
 - name: Paolo Falcaro
   highlight: false
+  first_author: false
+  corresponding_author: true
 - name: Jun Ge
   highlight: false
+  first_author: false
+  corresponding_author: true
 excerpt: MOF encapsulation protects enzymes during melt processing and enables chemically triggered polyester depolymerization.
 summary: MOF encapsulation protects enzymes during melt processing and enables chemically triggered polyester depolymerization.
 figure: /images/publications/mof-gated-polyesters.webp

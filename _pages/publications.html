@@ -7,6 +7,7 @@ excerpt: "Publications at SCUT and earlier first-author and co-first-author rese
 
 <p class="lab-intro">Research articles and reviews from the Cao Group, alongside earlier first-author and co-first-author work.</p>
 <p class="lab-profile-links"><a href="{{ site.data.lab.pi.scholar }}">Google Scholar</a> · <a href="{{ site.data.lab.pi.orcid }}">ORCID</a></p>
+{% include publication-author-key.html %}
 {% assign scut_papers = site.publications | where: 'period', 'after_scut' %}
 {% assign earlier_papers = site.publications | where: 'period', 'before_scut' %}
 {% assign year_groups = scut_papers | group_by: 'year' | sort: 'name' | reverse %}
@@ -23,7 +24,7 @@ excerpt: "Publications at SCUT and earlier first-author and co-first-author rese
   <article class="lab-publication">
     <p class="lab-pub-journal">{{ paper.venue }}{% if paper.volume != empty %} · {{ paper.volume }}{% endif %}{% if paper.issue != empty %}({{ paper.issue }}){% endif %}{% if paper.pages != empty %} · {{ paper.pages }}{% endif %}</p>
     <h3><a href="{{ paper.url | relative_url }}">{{ paper.title }}</a></h3>
-    <details class="lab-author-list"><summary>Authors</summary><p>{% include publication-authors.html authors=paper.authors %}</p></details>
+    <details class="lab-author-list" open><summary>Authors</summary><p>{% include publication-authors.html authors=paper.authors %}</p></details>
     <p class="lab-publication-summary">{{ paper.summary }}</p>
     {% include publication-media.html paper=paper %}
     <p class="lab-doi"><a href="{{ paper.paperurl }}">DOI: {{ paper.doi }}</a></p>
@@ -33,7 +34,7 @@ excerpt: "Publications at SCUT and earlier first-author and co-first-author rese
 {% endfor %}
 <section id="earlier-publications" class="lab-earlier-publications">
   <h2 class="lab-period-title">Before SCUT</h2>
-  <p class="lab-profile-links">First-author and co-first-author papers only. † Equal contribution.</p>
+  <p class="lab-profile-links">First-author and co-first-author papers only.</p>
   {% assign earlier_groups = earlier_papers | group_by: 'year' | sort: 'name' | reverse %}
   {% for group in earlier_groups %}
   <h3 class="lab-earlier-year">{{ group.name }}</h3>

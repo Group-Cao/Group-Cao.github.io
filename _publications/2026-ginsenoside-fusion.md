@@ -16,18 +16,32 @@ paperurl: https://doi.org/10.1021/acs.jafc.6c09373
 authors:
 - name: Zinuo Chen
   highlight: false
+  first_author: true
+  corresponding_author: false
 - name: Wei Xie
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Fenglin Ye
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Qingsheng Chen
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Jingyu He
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Yufei Cao
   highlight: true
+  first_author: false
+  corresponding_author: true
 - name: Wen-Yong Lou
   highlight: false
+  first_author: false
+  corresponding_author: true
 excerpt: Enzyme fusion and MOF immobilization support a selective cascade from ginsenoside Rd to rare ginsenoside
   Rh2.
 summary: Enzyme fusion and MOF immobilization support a selective cascade from ginsenoside Rd to rare ginsenoside

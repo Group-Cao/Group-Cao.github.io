@@ -15,27 +15,44 @@ paperurl: https://doi.org/10.1021/acs.jafc.6c05419
 authors:
 - name: Mei Li
   highlight: false
+  first_author: true
+  corresponding_author: false
 - name: Guangjian Li
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Yutao Wang
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Wei Xie
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Xin Zhang
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Canyu Zhang
   highlight: false
+  first_author: false
+  corresponding_author: true
 - name: Yufei Cao
   highlight: true
+  first_author: false
+  corresponding_author: true
 - name: Wen-Yong Lou
   highlight: false
+  first_author: false
+  corresponding_author: true
 excerpt: Adaptive evolution and pathway engineering enable yeast to convert acetate into flavonoid precursors and
   phloretin.
 summary: Adaptive evolution and pathway engineering enable yeast to convert acetate into flavonoid precursors and
   phloretin.
-figure: /images/publications/acetate-flavonoids.webp
-figure_label: Supporting Figure S7
-figure_alt: Phloretin production from acetate in engineered yeast.
-figure_source: https://acs.figshare.com/articles/journal_contribution/Metabolic_Engineering_of_Saccharomyces_cerevisiae_for_Flavonoid_Synthesis_from_Acetate/34557390
+figure: /images/publications/acetate-flavonoids-main-figure1.webp
+figure_label: Figure 1
+figure_alt: Acetate utilization and flavonoid biosynthetic pathways, including the route from p-coumaric acid to
+  phloretin.
+figure_source: https://doi.org/10.1021/acs.jafc.6c05419
 period: after_scut
 ---

@@ -3,7 +3,8 @@ layout: single
 ---
 
 <p class="lab-publication-authors">{% include publication-authors.html authors=page.authors %}</p>
-{% if page.authorship %}<p class="lab-authorship">{{ page.authorship }}{% if page.authorship == 'Co-first author' %} · † Equal contribution{% endif %}</p>{% endif %}
+{% include publication-author-key.html %}
+{% if page.authorship %}<p class="lab-authorship">{{ page.authorship }}{% if page.authorship == 'Co-first author' %} · Equal contribution{% endif %}</p>{% endif %}
 <p class="lab-citation"><em>{{ page.venue }}</em> <strong>{{ page.year }}</strong>{% if page.volume != empty %}, {{ page.volume }}{% endif %}{% if page.issue != empty %}({{ page.issue }}){% endif %}{% if page.pages != empty %}, {{ page.pages }}{% endif %}.</p>
 {% if page.summary %}<p>{{ page.summary }}</p>{% endif %}
 {% include publication-media.html paper=page %}

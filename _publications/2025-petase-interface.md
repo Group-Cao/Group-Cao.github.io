@@ -15,18 +15,32 @@ paperurl: https://doi.org/10.1002/anie.202511131
 authors:
 - name: Shuang Chen
   highlight: false
+  first_author: true
+  corresponding_author: false
 - name: Ekram Akram
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Hui Liang
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Weili Qiao
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Yifei Zhang
   highlight: false
+  first_author: false
+  corresponding_author: true
 - name: Shozeb Haider
   highlight: false
+  first_author: false
+  corresponding_author: true
 - name: Yufei Cao
   highlight: true
+  first_author: false
+  corresponding_author: true
 excerpt: Interfacial simulations and enzyme engineering connect PET binding, catalytic activity, and the activity–stability
   trade-off.
 summary: Interfacial simulations and enzyme engineering connect PET binding, catalytic activity, and the activity–stability

@@ -85,6 +85,9 @@ html[data-theme="dark"] {
 .lab-author-list summary { cursor: pointer; color: var(--global-text-color); width: fit-content; padding: .2em 0; }
 .lab-author-list p { margin-top: .6em; }
 .lab-publication-authors { font-size: .8em !important; line-height: 1.8; }
+.lab-author-highlight { font-weight: 700; text-decoration: underline; text-underline-offset: .14em; text-decoration-thickness: .07em; }
+.lab-author-roles { white-space: nowrap; margin-left: .08em; }
+.lab-author-key { display: flex; flex-wrap: wrap; gap: .35em 1.25em; font-size: .68em !important; line-height: 1.7; margin: .65em 0 1.3em; }
 .lab-citation { font-size: .85em !important; }
 .lab-image-credit { font-size: .65em !important; }
 .lab-period-title { font-family: Georgia,serif; }

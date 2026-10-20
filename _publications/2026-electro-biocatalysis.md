@@ -15,16 +15,28 @@ paperurl: https://doi.org/10.1039/d5im00356c
 authors:
 - name: Weili Qiao
   highlight: false
+  first_author: true
+  corresponding_author: false
 - name: Yuyan Zhang
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Boyang Wu
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Canyu Zhang
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Wen-Yong Lou
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Yufei Cao
   highlight: true
+  first_author: false
+  corresponding_author: true
 excerpt: This review examines how electrochemical CO2 reduction can be coupled to biocatalytic routes toward higher-value
   products.
 summary: This review examines how electrochemical CO2 reduction can be coupled to biocatalytic routes toward higher-value

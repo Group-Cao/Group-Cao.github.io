@@ -38,6 +38,8 @@ paperurl: "https://doi.org/your-doi"
 authors:
   - name: "Yufei Cao"
     highlight: true
+    first_author: true
+    corresponding_author: true
 summary: "A short, verified summary."
 figure: /images/publications/short-title.webp
 figure_label: "Figure 1"
@@ -50,6 +52,8 @@ cover_source: "https://publisher.example/verified-issue-page"
 ```
 
 Use the issue year in `year` and the verified first online date in `date` (or a verified issue date if no online date is available). Set `period: after_scut` for papers after September 2023. For earlier papers use `period: before_scut`, include only confirmed first/co-first author papers, and omit figures and covers. The earlier-paper section displays citations only. Set `equal_contribution: true` on authors with a verified equal-contribution note. Check publisher metadata and the full author list. Do not add preprints or translated editions as duplicate articles. Quote YAML values that contain colons or other special characters.
+
+Set `first_author: true` for the first author and every verified co-first author; set `corresponding_author: true` only for authors identified by the original article, publisher author notes, or the user's explicit confirmation. The site displays † for first/co-first authors and * for corresponding authors. Both markers can appear on one person. `highlight: true` makes Yufei Cao bold and underlined in every publication author list. Do not infer correspondence from author order, seniority, supervision statements, or affiliation alone.
 
 Use an actual figure or graphical abstract from the paper and credit its source. Retain figure labels, axes, and legends; do not recreate scientific results. Supporting figures must be labelled as such. Convert images to a web-friendly format and strip unnecessary metadata.
 

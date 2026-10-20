@@ -16,46 +16,93 @@ paperurl: https://doi.org/10.1038/s41467-025-58756-9
 authors:
 - name: Jinqiang Zhang
   highlight: false
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Yufei Cao
   highlight: true
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Pengfei Ou
   highlight: false
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Geonhui Lee
   highlight: false
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Yufei Zhao
   highlight: false
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Shijie Liu
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Erfan Shirzadi
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Roham Dorakhan
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Ke Xie
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Cong Tian
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Yuanjun Chen
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Xiaoyan Li
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Yurou Celine Xiao
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Ali Shayesteh Zeraati
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Rui Kai Miao
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Sungjin Park
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Colin P. O’Brien
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Jun Ge
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Xin Zhou
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: David Sinton
   highlight: false
+  first_author: false
+  corresponding_author: true
 - name: Edward H. Sargent
   highlight: false
+  first_author: false
+  corresponding_author: true
 excerpt: A redox-active polymeric network connects dilute CO2 capture with electrochemical conversion to multicarbon
   products.
 summary: A redox-active polymeric network connects dilute CO2 capture with electrochemical conversion to multicarbon

@@ -16,20 +16,38 @@ paperurl: https://doi.org/10.1021/jacs.6c13996
 authors:
 - name: Hongli Zhou
   highlight: false
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Shuang Chen
   highlight: false
+  first_author: true
+  corresponding_author: false
+  equal_contribution: true
 - name: Haiyue Zhou
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Yuxuan Han
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Ruobing Xin
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Tiantian Wang
   highlight: false
+  first_author: false
+  corresponding_author: false
 - name: Yufei Cao
   highlight: true
+  first_author: false
+  corresponding_author: true
 - name: Qiang Chen
   highlight: false
+  first_author: false
+  corresponding_author: true
 excerpt: Synchronizing ultrasound activation with COF crystallization captures enzyme conformations with enhanced
   catalytic performance.
 summary: Synchronizing ultrasound activation with COF crystallization captures enzyme conformations with enhanced
