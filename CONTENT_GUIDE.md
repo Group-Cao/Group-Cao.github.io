@@ -5,6 +5,7 @@ This website uses [Academic Pages](https://academicpages.github.io/markdown/) wi
 ## Add group information
 
 - `_config.yml`: group name, site description, sidebar, affiliation, public email, and academic profile links. Set `url` to the account hostname and `baseurl` to the repository path for a project site.
+  This organization site uses `url: https://group-cao.github.io`, `baseurl: ''`, and `repository: Group-Cao/Group-Cao.github.io`.
 - `_data/lab.yml`: introduction, four research themes, PI profile, postdocs, doctoral students, master's students, and contact details. Update the existing records with confirmed information.
 - `_data/navigation.yml`: menu labels and order.
 - `_pages/about.md`: homepage structure.
@@ -82,7 +83,7 @@ Your announcement.
 
 ## Preview and deployment
 
-With Ruby 3.3 and Bundler available, run `bundle install`, followed by `bundle exec jekyll serve --host 127.0.0.1`. Open the printed URL, including `baseurl` for a project site.
+With Ruby 3.3 and Bundler available, run `bundle install`, followed by `bundle exec jekyll serve --host 127.0.0.1`. Open the printed root URL; this organization site uses an empty `baseurl`.
 
 GitHub Pages must use **Settings → Pages → Source → GitHub Actions**. Pushes to `main` or `master` build and deploy through `.github/workflows/jekyll.yml`. Pull requests run the build without deployment. Check the Actions tab for failures.
 

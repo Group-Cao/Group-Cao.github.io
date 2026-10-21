@@ -5,9 +5,9 @@ title_separator: '|'
 name: Cao Group
 description: 'The Cao Group at SCUT: multiscale biocatalyst design, intelligent enzyme engineering, and sustainable
   biosynthesis.'
-url: https://thu-caoyf.github.io
-baseurl: /Group-Cao.github.io
-repository: THU-caoyf/Group-Cao.github.io
+url: https://group-cao.github.io
+baseurl: ''
+repository: Group-Cao/Group-Cao.github.io
 timezone: Asia/Shanghai
 author:
   avatar: branding/cao-group-a-enhanced.webp
@@ -16,7 +16,7 @@ author:
   location: Guangzhou, China
   employer: South China University of Technology
   email: yufeicao@scut.edu.cn
-  github: THU-caoyf
+  github: Group-Cao
   googlescholar: https://scholar.google.com/citations?user=3ebq8z8AAAAJ&hl=en
   orcid: https://orcid.org/0000-0002-4742-4009
 publication_category:
