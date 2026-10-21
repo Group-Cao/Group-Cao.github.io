@@ -1,25 +1,20 @@
-{% include base_path %}
-
-{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
-    {% if site.author.github %}
-      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
-    {% if site.author.bitbucket %}
-      <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
-    {% endif %}
-    {% if site.atom_feed.hide != true %}
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-    {% endif %}
-  </ul>
-</div>
-{% endif %}
-
-<div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated {{ "now" | date: '%Y-%m-%d' }}, <a href="{{ "/sitemap/" | relative_url }}" style="text-transform: uppercase;">{{ site.data.ui-text[site.locale].site_map | default: "Sitemap" }}</a>
-</div>
+<section class="protein-design-footer" data-protein-design aria-labelledby="protein-design-title">
+  <div class="protein-design-copy">
+    <p class="protein-design-eyebrow">Cao Group · Intelligent enzyme design</p>
+    <h2 id="protein-design-title">De novo<br> protein design</h2>
+    <ol class="protein-design-stages" aria-label="Design stages">
+      <li data-protein-stage="0"><span>01</span> Generate</li>
+      <li data-protein-stage="1"><span>02</span> Fold</li>
+      <li data-protein-stage="2" aria-current="step"><span>03</span> Refine</li>
+    </ol>
+    <div class="protein-design-progress" aria-hidden="true"><span data-protein-progress></span></div>
+  </div>
+  <figure class="protein-design-scene">
+    <img class="protein-design-poster" src="{{ '/images/branding/protein-design-poster.svg' | relative_url }}" alt="" width="640" height="320" loading="lazy">
+    <canvas data-protein-canvas aria-hidden="true"></canvas>
+    <figcaption class="screen-reader-text">Conceptual animation of de novo protein design: a generated amino-acid chain forms a compact three-helix structure and is refined through design iterations.</figcaption>
+  </figure>
+  <button class="protein-design-toggle" data-protein-toggle type="button" aria-pressed="false" aria-label="Pause animation" hidden>Pause</button>
+  <p class="protein-design-note">Conceptual animation</p>
+</section>
+<script type="module" src="{{ '/assets/js/protein-design.js' | relative_url }}"></script>

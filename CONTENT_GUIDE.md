@@ -81,6 +81,14 @@ date: YYYY-MM-DD
 Your announcement.
 ```
 
+## Footer animation
+
+The custom footer in `_includes/footer.html` replaces the template's social links, copyright, update date, and sitemap link. It uses `assets/js/protein-design.js` and the footer rules in `assets/css/lab.css`. Keep the original theme license and source acknowledgements in `LICENSE` and `README.md`.
+
+The cyan ribbon and golden design sites are illustrative geometry, not a molecular structure or a physical folding simulation. Keep the visible “Conceptual animation” label. The 20-second loop illustrates Generate → Fold → Refine. It supports Pause/Play, respects reduced-motion preferences, and stops drawing when offscreen or in a hidden tab. `images/branding/protein-design-poster.svg` provides a static fallback when JavaScript or Canvas is unavailable.
+
+The footer stays in normal document flow. Desktop sidebar positioning is constrained to the main content, and the old theme script's inline bottom margin is overridden to avoid a blank area below the new footer.
+
 ## Preview and deployment
 
 With Ruby 3.3 and Bundler available, run `bundle install`, followed by `bundle exec jekyll serve --host 127.0.0.1`. Open the printed root URL; this organization site uses an empty `baseurl`.

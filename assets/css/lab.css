@@ -98,6 +98,35 @@ html[data-theme="dark"] {
 .lab-earlier-paper h4 { font-size: .88em; line-height: 1.6; margin: .6em 0; }
 .lab-earlier-authors { font-size: .7em !important; line-height: 1.75; margin-bottom: .7em !important; }
 .lab-authorship { font-size: .7em !important; color: var(--lab-accent); }
+/* The theme script reserves inline space for its former fixed footer. */
+body { padding-bottom: 0; margin-bottom: 0 !important; }
+@media (min-width: 1024px) {
+  #main > .sidebar { position: sticky; top: 5.5rem; float: left; height: auto; max-height: calc(100vh - 6.5rem); padding-top: 0; }
+  #main > .sidebar .author__urls li { white-space: normal; overflow-wrap: anywhere; }
+}
+.page__footer { position: relative; bottom: auto; float: none; clear: both; border: 0; background: transparent; animation: none; }
+.page__footer footer { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem 1.5rem; }
+.protein-design-footer { position: relative; display: grid; grid-template-columns: minmax(200px,.8fr) minmax(0,1.4fr); align-items: center; gap: 1.5rem; min-height: 290px; overflow: hidden; isolation: isolate; padding: 1.7rem 2.2rem; border: 1px solid #173c53; border-radius: 18px; color: #e8f7fa; background: radial-gradient(ellipse at 78% 40%,#0a2941 0%,#06182d 42%,#041023 100%); }
+.protein-design-copy { position: relative; z-index: 1; }
+.protein-design-eyebrow { margin: 0 0 .9rem; color: #85c9d2; font-size: 10px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
+.protein-design-footer h2 { color: #edfafd; font-family: Georgia,"Times New Roman",serif; font-size: clamp(26px,2.8vw,37px); font-weight: 400; line-height: 1.1; margin: 0 0 1.6rem; }
+.protein-design-stages { display: flex; gap: 1.1rem; padding: 0; margin: 0 0 .65rem; list-style: none; }
+.protein-design-stages li { display: grid; gap: .25rem; color: #9ab2c3; font-size: 11px; }
+.protein-design-stages li span { color: #5c8096; font-size: 9px; letter-spacing: .08em; }
+.protein-design-stages li[aria-current="step"] { color: #8af2f0; }
+.protein-design-stages li[aria-current="step"] span { color: #edbd6a; }
+.protein-design-progress { height: 1px; width: 210px; max-width: 100%; background: #214052; }
+.protein-design-progress > span { display: block; width: 100%; height: 100%; background: linear-gradient(90deg,#38bdca,#f0c577); transform: scaleX(.7); transform-origin: left; }
+.protein-design-scene { position: relative; align-self: stretch; min-width: 0; min-height: 245px; margin: 0; }
+.protein-design-scene canvas,.protein-design-poster { position: absolute; inset: 0; width: 100%; height: 100%; display: block; object-fit: contain; }
+.protein-design-poster { opacity: 1; }
+.protein-design-footer.is-ready .protein-design-poster { opacity: 0; }
+.protein-design-toggle { position: absolute; z-index: 2; right: 1.2rem; top: 1rem; padding: .35rem .65rem; border: 1px solid #355369; border-radius: 20px; background: #0a2035; color: #c8e5ec; font: 11px/1.4 sans-serif; cursor: pointer; }
+.protein-design-toggle[hidden] { display: none; }
+.protein-design-toggle:hover { color: #fff; border-color: #73c4d0; }
+.protein-design-toggle:focus-visible { outline: 2px solid #eabf76; outline-offset: 3px; }
+.protein-design-note { position: absolute; right: 1.3rem; bottom: .6rem; margin: 0; color: #8ca7ba; font-size: 9px; letter-spacing: .04em; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 @media (max-width: 600px) {
   .lab-links a { display: block; }
   .lab-links span { display: block; text-align: left; margin-top: .2em; }
@@ -109,4 +138,11 @@ html[data-theme="dark"] {
   .lab-publication-media.has-cover { grid-template-columns: minmax(0,1fr) 82px; }
   .lab-paper-figure img { height: 160px; }
   .lab-publication { padding-top: 1em; }
+  .page__footer footer { padding: 0 .75rem .75rem; }
+  .protein-design-footer { grid-template-columns: 1fr; gap: .25rem; padding: 1.65rem 1.3rem 1.7rem; }
+  .protein-design-footer h2 { font-size: 30px; margin-bottom: 1rem; }
+  .protein-design-footer h2 br { display: none; }
+  .protein-design-scene { min-height: 230px; }
+  .protein-design-stages { gap: 1.5rem; }
+  .protein-design-eyebrow { max-width: 210px; font-size: 9px; }
 }
