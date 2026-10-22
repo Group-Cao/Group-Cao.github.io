@@ -101,6 +101,8 @@ postdocs:
   photo: /images/people/zhenru-zhou.webp
   photo_width: 343
   photo_height: 480
+  role: Postdoctoral researcher
+  year: 2026
 - name: Canyu Zhang
   name_zh: 张灿钰
   id: canyu-zhang
@@ -113,6 +115,8 @@ postdocs:
   photo: /images/people/canyu-zhang.webp
   photo_width: 320
   photo_height: 480
+  role: Postdoctoral researcher
+  year: 2024
 doctoral_students:
 - name: Ying Zheng
   name_zh: 郑滢
@@ -127,6 +131,7 @@ doctoral_students:
   photo: /images/people/ying-zheng.webp
   photo_width: 360
   photo_height: 480
+  role: Ph.D. student
 - name: Qi Zheng
   name_zh: 郑琪
   year: 2026
@@ -140,6 +145,7 @@ doctoral_students:
   photo: /images/people/qi-zheng.webp
   photo_width: 300
   photo_height: 400
+  role: Ph.D. student
 - name: Hui Liang
   name_zh: 梁慧
   year: 2025
@@ -153,6 +159,7 @@ doctoral_students:
   photo: /images/people/hui-liang.webp
   photo_width: 343
   photo_height: 480
+  role: Ph.D. student
 - name: Weili Qiao
   name_zh: 乔炜利
   year: 2024
@@ -166,6 +173,7 @@ doctoral_students:
   photo: /images/people/weili-qiao.webp
   photo_width: 336
   photo_height: 480
+  role: Ph.D. student
 masters_students:
 - name: Rong Sun
   name_zh: 孙荣
@@ -178,6 +186,7 @@ masters_students:
   photo: /images/people/rong-sun.webp
   photo_width: 347
   photo_height: 480
+  role: Master’s student
 - name: Boyang Wu
   name_zh: 吴博炀
   year: 2026
@@ -189,6 +198,7 @@ masters_students:
   photo: /images/people/boyang-wu.webp
   photo_width: 412
   photo_height: 480
+  role: Master’s student
 - name: Chaoyang Wang
   name_zh: 王朝阳
   year: 2025
@@ -200,6 +210,7 @@ masters_students:
   photo: /images/people/chaoyang-wang.webp
   photo_width: 343
   photo_height: 480
+  role: Master’s student
 - name: Yuyan Zhang
   name_zh: 张雨雁
   year: 2025
@@ -211,6 +222,7 @@ masters_students:
   photo: /images/people/yuyan-zhang.webp
   photo_width: 360
   photo_height: 480
+  role: Master’s student
 - name: Ke-siyi Ma
   name_zh: 马可思意
   year: 2025
@@ -222,6 +234,7 @@ masters_students:
   photo: /images/people/ke-siyi-ma.webp
   photo_width: 343
   photo_height: 480
+  role: Master’s student
 - name: Zifan Zhang
   name_zh: 张子凡
   year: 2024
@@ -233,6 +246,7 @@ masters_students:
   photo: /images/people/zifan-zhang.webp
   photo_width: 320
   photo_height: 480
+  role: Master’s student
 - name: Junrong Yang
   name_zh: 杨骏荣
   year: 2024
@@ -244,6 +258,7 @@ masters_students:
   photo: /images/people/junrong-yang.webp
   photo_width: 375
   photo_height: 480
+  role: Master’s student
 - name: Pengsheng Yang
   name_zh: 杨朋升
   year: 2024
@@ -255,6 +270,7 @@ masters_students:
   photo: /images/people/pengsheng-yang.webp
   photo_width: 420
   photo_height: 421
+  role: Master’s student
 contact:
   email: yufeicao@scut.edu.cn
   address: 'Room 409, Building 13

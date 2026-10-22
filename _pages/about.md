@@ -40,10 +40,8 @@ Our team includes postdoctoral researchers, doctoral students, and master’s st
 
 [Meet the group →]({{ '/people/' | relative_url }}) · [Contact and opportunities →]({{ '/join/' | relative_url }})
 
-## Group Life
-
-Graduations, gatherings, and moments beyond the lab.
+## Photos
 
 {% include group-gallery.html %}
 
-[Explore the gallery →]({{ '/gallery/' | relative_url }})
+[More photos →]({{ '/photos/' | relative_url }})

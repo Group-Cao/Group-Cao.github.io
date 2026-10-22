@@ -1,4 +1,4 @@
-<section class="lab-gallery" data-group-gallery aria-label="Cao Group photo gallery" aria-roledescription="carousel">
+<section class="lab-gallery" data-group-gallery aria-label="Cao Group photos" aria-roledescription="carousel">
   <div class="lab-gallery-toolbar" data-gallery-controls hidden>
     <p class="lab-gallery-counter" data-gallery-counter aria-live="off">1 / {{ site.data.gallery.size }}</p>
     <div class="lab-gallery-actions">
@@ -13,7 +13,6 @@
       <a href="{{ photo.image | relative_url }}" data-gallery-open aria-label="Enlarge photo: {{ photo.title | escape }}">
         <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy" decoding="async">
       </a>
-      <figcaption>{{ photo.title }}</figcaption>
     </figure>
     {% endfor %}
   </div>
@@ -24,7 +23,6 @@
     </button>
     {% endfor %}
   </div>
-  <p class="lab-gallery-hint">Swipe or use the arrows to browse. Select a photo to enlarge it.</p>
   <dialog class="lab-gallery-dialog" data-gallery-dialog aria-label="Enlarged group photo">
     <div class="lab-gallery-dialog-bar">
       <p data-gallery-dialog-caption></p>

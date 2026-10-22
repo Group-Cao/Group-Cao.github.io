@@ -45,23 +45,31 @@ html[data-theme="dark"] {
 .lab-member h3 { margin: 0 0 .4em; font-size: .9em; line-height: 1.6; }
 .lab-member h3 span { display: block; font-weight: 400; font-size: .9em; }
 .lab-member p { margin: 0; font-size: .72em; line-height: 1.6; }
-.lab-people-intro { font-size: .8em !important; line-height: 1.8; }
+.lab-member-link { display: block; color: inherit; text-decoration: none; border-radius: 4px; }
+.lab-member-link:hover h3 { color: var(--lab-accent); text-decoration: underline; text-underline-offset: .15em; }
+.lab-member-link:focus-visible { outline: 2px solid var(--lab-accent); outline-offset: 7px; }
+.lab-member .lab-member-role { color: var(--lab-accent); }
+.lab-member .lab-member-year { margin-top: .25em; }
 .lab-team-grid { align-items: start; }
 .lab-member-heading { display: grid; grid-template-columns: 96px minmax(0,1fr); align-items: center; gap: 1em; margin-bottom: 1.1em; }
 .lab-member-photo { display: block; width: 96px; height: 128px; object-fit: contain; object-position: top center; border-radius: 5px; background: var(--lab-wash); }
-.lab-member h4 { margin: 1.15em 0 .45em; color: var(--lab-accent); font-size: .64em; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
 .lab-member-year { color: var(--global-text-color); }
 .page__content .lab-member-education { margin: 0; font-size: .75em; line-height: 1.7; }
 .lab-member-education > div { margin: .55em 0; }
 .lab-member-education dt { margin: 0; font-size: .9em; font-weight: 600; }
 .lab-member-education dd { margin: 0; font-size: inherit; }
-.lab-member-publications { margin-top: 1.2em; font-size: .7em; line-height: 1.7; }
-.lab-member-publications summary { width: fit-content; padding: .3em 0; color: var(--lab-accent); cursor: pointer; }
-.lab-member-publications summary > span { margin-left: .4em; font-size: .85em; color: var(--global-text-color); }
-.lab-member-publications h4 { font-size: .9em; }
-.lab-member-publications ol { margin: .6em 0; padding-left: 1.3em; }
-.lab-member-publications li { margin-bottom: .95em; overflow-wrap: anywhere; }
-.lab-member-paper-venue { display: block; margin-top: .25em; color: var(--global-text-color); font-size: .9em; }
+.lab-member-back { margin: 1em 0 1.5em; font-size: .75em !important; }
+.lab-member-profile { display: grid; grid-template-columns: 140px minmax(0,1fr); gap: 1.5em; align-items: start; margin: 1em 0 2em; }
+.lab-member-profile > img { width: 140px; height: 187px; object-fit: contain; object-position: top; background: var(--lab-wash); border-radius: 5px; }
+.lab-member-profile p { font-size: .85em; line-height: 1.7; margin: .25em 0 .75em; }
+.lab-member-profile .lab-member-native-name { margin-top: 0; font-size: 1em; }
+.lab-member-profile h2 { border: 0; padding: 0; font-size: .9em; margin: 1em 0 .4em; }
+.lab-member-profile-education { margin-bottom: 2.5em; }
+.lab-member-paper { margin: 1.4em 0; padding-bottom: 1.4em; border-bottom: 1px solid var(--global-border-color); overflow-wrap: anywhere; }
+.lab-member-paper h3 { margin: 0 0 .7em; font-size: .95em; line-height: 1.6; }
+.lab-member-paper-authors { font-size: .78em !important; line-height: 1.9; margin: .5em 0; }
+.lab-member-paper-meta { font-size: .72em !important; line-height: 1.7; margin: .6em 0 0; color: var(--lab-accent); }
+.lab-member-paper-section { margin: 2em 0 1em; font-size: .85em; }
 .lab-gallery { margin: 1.3em 0 1.7em; min-width: 0; }
 .lab-gallery-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 1em; margin-bottom: .65em; }
 .lab-gallery-counter { margin: 0 !important; font-size: .7em !important; font-variant-numeric: tabular-nums; color: var(--lab-accent); }
@@ -73,12 +81,10 @@ html[data-theme="dark"] {
 .lab-gallery-slide { flex: 0 0 100%; min-width: 0; margin: 0; scroll-snap-align: start; scroll-snap-stop: always; }
 .lab-gallery-slide > a { display: block; background: var(--lab-wash); border-radius: 7px; overflow: hidden; }
 .lab-gallery-slide img { display: block; width: 100%; height: min(52vh,520px); min-height: 230px; object-fit: contain; }
-.lab-gallery-slide figcaption { margin: .55em 0 .25em; font-size: .7em; line-height: 1.6; }
 .lab-gallery-thumbnails { display: flex; gap: .5em; margin: .75em 0; padding: 4px; overflow-x: auto; scrollbar-width: thin; }
 .lab-gallery-thumbnails button { flex: 0 0 70px; padding: 2px; min-height: 0; border-radius: 3px; opacity: .65; }
 .lab-gallery-thumbnails button[aria-current="true"] { border-color: var(--lab-accent); opacity: 1; outline: 1px solid var(--lab-accent); }
 .lab-gallery-thumbnails img { display: block; width: 64px; height: 48px; object-fit: contain; background: var(--lab-wash); }
-.lab-gallery-hint { margin: .7em 0 0 !important; color: var(--global-text-color); font-size: .65em !important; line-height: 1.7; }
 .lab-gallery [hidden] { display: none; }
 .lab-gallery-dialog { width: min(1200px,94vw); max-width: 94vw; max-height: 94vh; margin: auto; padding: 1rem; border: 1px solid #35516c; border-radius: 8px; background: #06172b; color: #eef6fa; }
 .lab-gallery-dialog::backdrop { background: rgb(2 9 18 / 88%); }
@@ -89,7 +95,6 @@ html[data-theme="dark"] {
 .lab-gallery-dialog button:hover { background: #173146; }
 .lab-gallery-dialog-nav { display: flex; justify-content: space-between; margin-top: .7rem; }
 body.lab-gallery-modal-open { overflow: hidden; }
-.lab-gallery-people-link { font-size: .8em !important; }
 .lab-topic-nav { display: grid; gap: .55em; font-size: .78em; margin: 1.5em 0 2.5em; padding: 1.1em 1.3em; border-left: 3px solid var(--lab-accent); background: var(--lab-wash); }
 .lab-research-section { margin: 3em 0 4em; scroll-margin-top: 100px; }
 .lab-research-section h2 { margin-top: .3em; line-height: 1.3; }
@@ -181,6 +186,8 @@ body { padding-bottom: 0; margin-bottom: 0 !important; }
   .lab-team-grid, .lab-research-overview { grid-template-columns: 1fr; }
   .lab-member-heading { grid-template-columns: 90px minmax(0,1fr); }
   .lab-member-photo { width: 90px; height: 120px; }
+  .lab-member-profile { grid-template-columns: 96px minmax(0,1fr); gap: 1em; }
+  .lab-member-profile > img { width: 96px; height: 128px; }
   .lab-gallery-thumbnails button { flex-basis: 60px; }
   .lab-gallery-thumbnails img { width: 54px; height: 42px; }
   .lab-gallery-slide img { height: auto; min-height: 0; aspect-ratio: 4 / 3; }

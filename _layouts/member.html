@@ -1,0 +1,46 @@
+---
+layout: single
+---
+{% assign members = site.data.lab.postdocs | concat: site.data.lab.doctoral_students | concat: site.data.lab.masters_students %}
+{% assign person = members | where: 'id', page.member_id | first %}
+{% assign additional_papers = site.data.member_publications[person.id] %}
+{% assign group_papers = site.publications | sort: 'date' | reverse %}
+{% assign group_count = 0 %}
+{% for paper in group_papers %}
+  {% assign member_authors = paper.authors | where: 'name', person.name %}
+  {% if member_authors.size > 0 %}{% assign group_count = group_count | plus: 1 %}{% endif %}
+{% endfor %}
+{% assign paper_count = additional_papers.size | plus: group_count %}
+<p class="lab-member-back"><a href="{{ '/people/' | relative_url }}">← All members</a></p>
+<section class="lab-member-profile" aria-label="{{ person.name | escape }} profile">
+  <img src="{{ person.photo | relative_url }}" alt="{{ person.name | escape }}" width="{{ person.photo_width }}" height="{{ person.photo_height }}" decoding="async">
+  <div>
+    <p class="lab-member-native-name" lang="zh">{{ person.name_zh }}</p>
+    <p class="lab-role">{{ person.role }} · {{ person.year }}</p>
+    <h2>Research</h2>
+    <p>{{ person.research | escape }}</p>
+  </div>
+</section>
+<section class="lab-member-profile-education" aria-labelledby="member-education">
+  <h2 id="member-education">Education</h2>
+  <dl class="lab-member-education">
+  {% for education in person.education %}
+    <div><dt>{{ education.level }}</dt><dd>{{ education.institution }}</dd></div>
+  {% endfor %}
+  </dl>
+</section>
+{% if paper_count > 0 %}
+<section class="lab-member-profile-publications" aria-labelledby="member-publications">
+  <h2 id="member-publications">Publications</h2>
+  {% include publication-author-key.html %}
+  {% if group_count > 0 and additional_papers.size > 0 %}<h3 class="lab-member-paper-section">Group publications</h3>{% endif %}
+  {% for paper in group_papers %}
+    {% assign member_authors = paper.authors | where: 'name', person.name %}
+    {% if member_authors.size > 0 %}{% include member-paper.html paper=paper group=true %}{% endif %}
+  {% endfor %}
+  {% if group_count > 0 and additional_papers.size > 0 %}<h3 class="lab-member-paper-section">Additional publications</h3>{% endif %}
+  {% for paper in additional_papers %}
+    {% unless paper.language == 'zh' %}{% include member-paper.html paper=paper group=false %}{% endunless %}
+  {% endfor %}
+</section>
+{% endif %}

@@ -1,50 +1,15 @@
 {% assign person = include.person %}
-{% assign additional_papers = site.data.member_publications[person.id] %}
-{% assign group_papers = site.publications | sort: 'date' | reverse %}
-{% assign group_count = 0 %}
-{% for paper in group_papers %}
-  {% assign member_authors = paper.authors | where: 'name', person.name %}
-  {% if member_authors.size > 0 %}{% assign group_count = group_count | plus: 1 %}{% endif %}
-{% endfor %}
-{% assign paper_count = additional_papers.size | plus: group_count %}
+{% capture profile_url %}/people/{{ person.id }}/{% endcapture %}
 <section class="lab-member" id="{{ person.id }}" aria-labelledby="{{ person.id }}-name">
+  <a class="lab-member-link" href="{{ profile_url | relative_url }}">
   <div class="lab-member-heading">
-    <img class="lab-member-photo" src="{{ person.photo | relative_url }}" alt="{{ person.name | escape }}" width="{{ person.photo_width }}" height="{{ person.photo_height }}" loading="lazy" decoding="async">
+    <img class="lab-member-photo" src="{{ person.photo | relative_url }}" alt="" width="{{ person.photo_width }}" height="{{ person.photo_height }}" loading="lazy" decoding="async">
     <div>
       <h3 id="{{ person.id }}-name">{{ person.name }} <span lang="zh">{{ person.name_zh }}</span></h3>
-      <p class="lab-member-year">{% if person.year %}{{ person.year }}{% else %}Postdoctoral researcher{% endif %}</p>
+      <p class="lab-member-role">{{ person.role }}</p>
+      <p class="lab-member-year">{{ person.year }}</p>
     </div>
   </div>
-  <h4>Research</h4>
-  <p class="lab-member-research">{{ person.research }}</p>
-  <h4>Education</h4>
-  <dl class="lab-member-education">
-    {% for education in person.education %}
-    <div><dt>{{ education.level }}</dt><dd>{{ education.institution }}</dd></div>
-    {% endfor %}
-  </dl>
-  {% if paper_count > 0 %}
-  <details class="lab-member-publications">
-    <summary>Publications <span>{{ paper_count }}</span></summary>
-    {% if group_count > 0 %}
-    <h4>Group publications</h4>
-    <ol>
-      {% for paper in group_papers %}
-      {% assign member_authors = paper.authors | where: 'name', person.name %}
-      {% if member_authors.size > 0 %}
-      <li><a href="{{ paper.url | relative_url }}">{{ paper.title }}</a><span class="lab-member-paper-venue">{{ paper.venue }} · {{ paper.year }}</span></li>
-      {% endif %}
-      {% endfor %}
-    </ol>
-    {% endif %}
-    {% if additional_papers.size > 0 %}
-    {% if group_count > 0 %}<h4>Additional publications</h4>{% endif %}
-    <ol>
-      {% for paper in additional_papers %}
-      <li{% if paper.language %} lang="{{ paper.language }}"{% endif %}>{% if paper.doi %}<a href="https://doi.org/{{ paper.doi }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}<span class="lab-member-paper-venue">{{ paper.venue }} · {{ paper.year }}{% if paper.citation %} · {{ paper.citation }}{% endif %}</span></li>
-      {% endfor %}
-    </ol>
-    {% endif %}
-  </details>
-  {% endif %}
+  <p class="lab-member-research">{{ person.research | escape }}</p>
+  </a>
 </section>

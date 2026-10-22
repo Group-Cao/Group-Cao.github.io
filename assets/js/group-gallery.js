@@ -82,7 +82,7 @@ function initializeGallery(root) {
     const img = slides[dialogIndex].querySelector('img');
     dialogImage.src = img.src;
     dialogImage.alt = img.alt;
-    dialogCaption.textContent = `${dialogIndex + 1} / ${slides.length} · ${slides[dialogIndex].querySelector('figcaption').textContent}`;
+    dialogCaption.textContent = `${dialogIndex + 1} / ${slides.length}`;
   }
   slides.forEach((slide, i) => slide.querySelector('[data-gallery-open]').addEventListener('click', event => {
     if (typeof dialog.showModal !== 'function' || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;

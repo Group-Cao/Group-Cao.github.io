@@ -4,6 +4,17 @@ yuyan-zhang:
   year: 2024
   citation: 148, 104514
   doi: 10.1016/j.tifs.2024.104514
+  authors:
+  - name: Yuyan Zhang
+    first_author: true
+  - name: Botao Wang
+  - name: Junying Bai
+  - name: Li Wei
+  - name: Xiaoyong Chen
+  - name: Jiajia Song
+  - name: Yutao Liu
+  - name: Huayi Suo
+  - name: Chen Wang
 ying-zheng:
 - title: Low-glycemic index functional flour modulates gut microbiota in association with anti-obesity effects
     in mice
@@ -11,33 +22,95 @@ ying-zheng:
   year: 2026
   citation: 13, 1910403
   doi: 10.3389/fnut.2026.1910403
+  authors:
+  - name: Aijun Tong
+    first_author: true
+    equal_contribution: true
+    corresponding_author: true
+  - name: Ying Zheng
+    first_author: true
+    equal_contribution: true
+  - name: Wenfang Cheng
+    first_author: true
+    equal_contribution: true
+  - name: Junlin Wu
+  - name: Yueting Zheng
+  - name: Simin Liu
+  - name: Xiaoyan Liu
+  - name: Chao Zhao
+    corresponding_author: true
+  - name: Bin Liu
+    corresponding_author: true
 - title: Protective effects of black tea on ethanol-induced gastric mucosal injury and identification of key
     bioactive compounds
   venue: Journal of Functional Foods
   year: 2026
   citation: 146, 107509
+  authors:
+  - name: Aijun Tong
+    first_author: true
+    equal_contribution: true
+  - name: Ying Zheng
+    first_author: true
+    equal_contribution: true
+  - name: Yueting Zheng
+  - name: Simin Liu
+  - name: Xiaoli Jia
+  - name: Jianghua Ye
+    corresponding_author: true
+  - name: Chao Zhao
+    corresponding_author: true
+  - name: Bin Liu
+    corresponding_author: true
 - title: Investigating the biosynthesis pathways and hypolipidemic mechanisms of monacolin K in Monascus species
   venue: Phytomedicine
   year: 2025
   citation: 147, 157170
   doi: 10.1016/j.phymed.2025.157170
+  authors:
+  - name: Ying Zheng
+    first_author: true
+  - name: Yueting Zheng
+  - name: Zirui Huang
+  - name: Yuli Zhang
+  - name: Jishan Li
+  - name: Chao Zhao
+    corresponding_author: true
+  - name: Bin Liu
+    corresponding_author: true
+  - name: Aijun Tong
+    corresponding_author: true
 qi-zheng:
 - title: Blueberry-inspired starch nanospindles engineered for edible films with integrated UV-shielding and
     antimicrobial functions
   venue: Advanced Composites and Hybrid Materials
   year: 2026
   doi: 10.1007/s42114-026-01878-5
+  authors:
+  - name: Qi Zheng
+    first_author: true
+  - name: Mengyao Liu
+  - name: Jialing Li
+  - name: Young-Rok Kim
+    corresponding_author: true
+  - name: Ke Luo
+    corresponding_author: true
 - title: Effect of spray drying conditions on the physical properties and digestibility of resistant starch
     microparticles
   venue: Food Chemistry
   year: 2025
   citation: 493, 145929
   doi: 10.1016/j.foodchem.2025.145929
-- title: 芸豆蛋白–罗勒籽胶复合乳液凝胶对叶黄素的包埋及递送研究
-  venue: Journal of Hefei University of Technology (Natural Science)
-  year: 2023
-  citation: 46(12), 1699–1705
-  language: zh
+  authors:
+  - name: Qi Zheng
+    first_author: true
+  - name: Sanmei Long
+  - name: Mengyao Liu
+  - name: Yanming Feng
+  - name: Young-Rok Kim
+    corresponding_author: true
+  - name: Ke Luo
+    corresponding_author: true
 weili-qiao:
 - title: Rational design of PtCu nanopyramid interfaces for aggregation-induced gold deposition and ultra-sensitive
     detection of zearalenone
@@ -45,50 +118,153 @@ weili-qiao:
   year: 2026
   citation: 301, 129274
   doi: 10.1016/j.talanta.2025.129274
+  authors:
+  - name: Weili Qiao
+    first_author: true
+  - name: Jiahao Li
+  - name: Baoshan He
+    corresponding_author: true
+  - name: Wenjie Ren
+  - name: Gengan Du
+  - name: Chunqi Bai
+  - name: Longdi Wang
 - title: Pt@AuNF nanozyme and horseradish peroxidase-based lateral flow immunoassay dual enzymes signal amplification
     strategy for sensitive detection of zearalenone
   venue: International Journal of Biological Macromolecules
   year: 2024
   citation: 254, 127746
   doi: 10.1016/j.ijbiomac.2023.127746
+  authors:
+  - name: Weili Qiao
+    first_author: true
+  - name: Baoshan He
+    corresponding_author: true
+  - name: Jun Yang
+  - name: Wenjie Ren
+  - name: Renyong Zhao
+  - name: Yurong Zhang
+    corresponding_author: true
+  - name: Chunqi Bai
+  - name: Zhiguang Suo
+  - name: Yiwei Xu
+  - name: Min Wei
+  - name: Huali Jin
 - title: Colloidal Au sphere and nanoflower-based immunochromatographic strips for sensitive detection of zearalenone
     in cereals
   venue: Analytical Methods
   year: 2022
   citation: 14(39), 3831–3839
   doi: 10.1039/D2AY01365G
+  authors:
+  - name: Weili Qiao
+    first_author: true
+  - name: Baoshan He
+    corresponding_author: true
+  - name: Wenjie Ren
+  - name: Renyong Zhao
+    corresponding_author: true
+  - name: Zhiguang Suo
+  - name: Haoyang Yan
+  - name: Yiwei Xu
+  - name: Min Wei
+  - name: Huali Jin
 zhenru-zhou:
 - title: Engineering a 7β-hydroxylase from Fusarium longipes for enhancement of ursodeoxycholic acid production
   venue: International Journal of Biological Macromolecules
   year: 2025
   citation: 333, 148795
   doi: 10.1016/j.ijbiomac.2025.148795
+  authors:
+  - name: Zhen-Ru Zhou
+    first_author: true
+  - name: Fang-Zhi Deng
+  - name: Yi-hua Zhong
+  - name: Shan Li
+  - name: Chang-Zhi Dong
+  - name: Lei Zhang
+    corresponding_author: true
 - title: A fungal P450 enzyme from Fusarium equiseti HG18 with 7β-hydroxylase activity in biosynthesis of ursodeoxycholic
     acid
   venue: Journal of Steroid Biochemistry and Molecular Biology
   year: 2024
   citation: 240, 106507
   doi: 10.1016/j.jsbmb.2024.106507
+  authors:
+  - name: Zhen-Ru Zhou
+    first_author: true
+  - name: Fen Liu
+  - name: Shan Li
+  - name: Chang-Zhi Dong
+  - name: Lei Zhang
+    corresponding_author: true
 - title: Soluble Expression, One-Step Purification and Characterization of Recombinant Human Growth Hormone
     Fused with ompA3 in Escherichia coli
   venue: Protein and Peptide Letters
   year: 2021
   citation: 28(5), 533–542
   doi: 10.2174/0929866527666201110123426
+  authors:
+  - name: Zhen-Ru Zhou
+    first_author: true
+  - name: Wei Huang
+  - name: Kang-Jia Liu
+  - name: Fo-Lan Lin
+  - name: Xiao-Lu Wang
+  - name: Feng Wang
+  - name: Ren-Wang Jiang
+    corresponding_author: true
 - title: The study of antiviral drugs targeting SARS-CoV-2 nucleocapsid and spike proteins through large-scale
     compound repurposing
   venue: Heliyon
   year: 2021
   citation: 7(3), e06387
   doi: 10.1016/j.heliyon.2021.e06387
+  authors:
+  - name: Xuqiao Hu
+    first_author: true
+    equal_contribution: true
+  - name: Zhenru Zhou
+    first_author: true
+    equal_contribution: true
+  - name: Fei Li
+  - name: Yang Xiao
+  - name: Zhaoyang Wang
+  - name: Jinfeng Xu
+  - name: Fajin Dong
+    corresponding_author: true
+  - name: Hairong Zheng
+    corresponding_author: true
+  - name: Rongmin Yu
+    corresponding_author: true
 canyu-zhang:
 - title: Small DNAs that Bind Nickel(II) Specifically and Tightly
   venue: Analytical Chemistry
   year: 2021
   citation: 93(45), 14912–14917
   doi: 10.1021/acs.analchem.1c04034
+  authors:
+  - name: Tianbin Xu
+    first_author: true
+    equal_contribution: true
+  - name: Canyu Zhang
+    first_author: true
+    equal_contribution: true
+  - name: Kai Xia
+  - name: Wei Li
+  - name: Yichun Cao
+  - name: Hongzhou Gu
+    corresponding_author: true
 - title: New DNA-hydrolyzing DNAs isolated from an ssDNA library carrying a terminal hybridization stem
   venue: Nucleic Acids Research
   year: 2021
   citation: 49(11), 6364–6374
   doi: 10.1093/nar/gkab439
+  authors:
+  - name: Canyu Zhang
+    first_author: true
+  - name: Qingting Li
+  - name: Tianbin Xu
+  - name: Wei Li
+  - name: Yungang He
+  - name: Hongzhou Gu
+    corresponding_author: true
