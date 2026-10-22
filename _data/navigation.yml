@@ -3,6 +3,8 @@ main:
     url: /research/
   - title: "People"
     url: /people/
+  - title: "Gallery"
+    url: /gallery/
   - title: "Publications"
     url: /publications/
   - title: "News"

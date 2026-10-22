@@ -89,46 +89,172 @@ pi:
 postdocs:
 - name: Zhenru Zhou
   name_zh: 周珍如
+  id: zhenru-zhou
+  research: Biocatalysis and enzyme engineering
+  education:
+  - level: Undergraduate
+    institution: Lingnan Normal University
+  - level: Master’s
+    institution: Jinan University
+  - level: Ph.D.
+    institution: South China University of Technology
+  photo: /images/people/zhenru-zhou.webp
+  photo_width: 343
+  photo_height: 480
 - name: Canyu Zhang
   name_zh: 张灿钰
+  id: canyu-zhang
+  research: Biocatalysis and enzyme engineering
+  education:
+  - level: Undergraduate
+    institution: Soochow University
+  - level: Master’s and Ph.D.
+    institution: Fudan University
+  photo: /images/people/canyu-zhang.webp
+  photo_width: 320
+  photo_height: 480
 doctoral_students:
 - name: Ying Zheng
   name_zh: 郑滢
   year: 2026
+  id: ying-zheng
+  research: Biosynthesis
+  education:
+  - level: Undergraduate
+    institution: Fujian Agriculture and Forestry University
+  - level: Master’s
+    institution: Fujian Agriculture and Forestry University
+  photo: /images/people/ying-zheng.webp
+  photo_width: 360
+  photo_height: 480
 - name: Qi Zheng
   name_zh: 郑琪
   year: 2026
+  id: qi-zheng
+  research: Enzyme immobilization
+  education:
+  - level: Undergraduate
+    institution: Hefei University of Technology
+  - level: Master’s
+    institution: Ocean University of China
+  photo: /images/people/qi-zheng.webp
+  photo_width: 300
+  photo_height: 400
 - name: Hui Liang
   name_zh: 梁慧
   year: 2025
+  id: hui-liang
+  research: Enzyme engineering and design
+  education:
+  - level: Undergraduate
+    institution: Nanchang University
+  - level: Master’s
+    institution: South China University of Technology
+  photo: /images/people/hui-liang.webp
+  photo_width: 343
+  photo_height: 480
 - name: Weili Qiao
   name_zh: 乔炜利
   year: 2024
+  id: weili-qiao
+  research: Hybrid metal–enzyme catalysis and electrocatalysis
+  education:
+  - level: Undergraduate
+    institution: Henan University of Technology
+  - level: Master’s
+    institution: Henan University of Technology
+  photo: /images/people/weili-qiao.webp
+  photo_width: 336
+  photo_height: 480
 masters_students:
 - name: Rong Sun
   name_zh: 孙荣
   year: 2026
+  id: rong-sun
+  research: Enzyme engineering
+  education:
+  - level: Undergraduate
+    institution: Jiangsu University
+  photo: /images/people/rong-sun.webp
+  photo_width: 347
+  photo_height: 480
 - name: Boyang Wu
   name_zh: 吴博炀
   year: 2026
+  id: boyang-wu
+  research: Enzyme engineering
+  education:
+  - level: Undergraduate
+    institution: South China University of Technology
+  photo: /images/people/boyang-wu.webp
+  photo_width: 412
+  photo_height: 480
 - name: Chaoyang Wang
   name_zh: 王朝阳
   year: 2025
+  id: chaoyang-wang
+  research: Enzyme engineering
+  education:
+  - level: Undergraduate
+    institution: Hefei University of Technology
+  photo: /images/people/chaoyang-wang.webp
+  photo_width: 343
+  photo_height: 480
 - name: Yuyan Zhang
   name_zh: 张雨雁
   year: 2025
+  id: yuyan-zhang
+  research: Hybrid metal–enzyme catalysis
+  education:
+  - level: Undergraduate
+    institution: Southwest University
+  photo: /images/people/yuyan-zhang.webp
+  photo_width: 360
+  photo_height: 480
 - name: Ke-siyi Ma
   name_zh: 马可思意
   year: 2025
+  id: ke-siyi-ma
+  research: Biosynthesis
+  education:
+  - level: Undergraduate
+    institution: South China University of Technology
+  photo: /images/people/ke-siyi-ma.webp
+  photo_width: 343
+  photo_height: 480
 - name: Zifan Zhang
   name_zh: 张子凡
   year: 2024
+  id: zifan-zhang
+  research: Enzyme engineering
+  education:
+  - level: Undergraduate
+    institution: Tianjin University of Traditional Chinese Medicine
+  photo: /images/people/zifan-zhang.webp
+  photo_width: 320
+  photo_height: 480
 - name: Junrong Yang
   name_zh: 杨骏荣
   year: 2024
+  id: junrong-yang
+  research: Enzyme engineering
+  education:
+  - level: Undergraduate
+    institution: Shanghai Jiao Tong University
+  photo: /images/people/junrong-yang.webp
+  photo_width: 375
+  photo_height: 480
 - name: Pengsheng Yang
   name_zh: 杨朋升
   year: 2024
+  id: pengsheng-yang
+  research: Molecular synthetic biology
+  education:
+  - level: Undergraduate
+    institution: South China Agricultural University
+  photo: /images/people/pengsheng-yang.webp
+  photo_width: 420
+  photo_height: 421
 contact:
   email: yufeicao@scut.edu.cn
   address: 'Room 409, Building 13

@@ -39,3 +39,11 @@ redirect_from:
 Our team includes postdoctoral researchers, doctoral students, and master’s students working at the interface of biocatalysis, computation, and food science.
 
 [Meet the group →]({{ '/people/' | relative_url }}) · [Contact and opportunities →]({{ '/join/' | relative_url }})
+
+## Group Life
+
+Graduations, gatherings, and moments beyond the lab.
+
+{% include group-gallery.html %}
+
+[Explore the gallery →]({{ '/gallery/' | relative_url }})

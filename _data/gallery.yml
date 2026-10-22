@@ -1,0 +1,42 @@
+- id: graduation-together
+  title: Graduation together
+  alt: Group members celebrating graduation at SCUT.
+  image: /images/group/graduation-together.webp
+  thumbnail: /images/group/graduation-together-thumb.webp
+  width: 1800
+  height: 1013
+- id: around-the-table
+  title: Around the table
+  alt: Group members gathered for a meal together.
+  image: /images/group/around-the-table.webp
+  thumbnail: /images/group/around-the-table-thumb.webp
+  width: 1800
+  height: 1200
+- id: time-together
+  title: Time together
+  alt: A group photograph during a shared meal.
+  image: /images/group/time-together.webp
+  thumbnail: /images/group/time-together-thumb.webp
+  width: 1800
+  height: 1350
+- id: beyond-the-lab
+  title: Beyond the lab
+  alt: Group members on an outdoor outing.
+  image: /images/group/beyond-the-lab.webp
+  thumbnail: /images/group/beyond-the-lab-thumb.webp
+  width: 1800
+  height: 1200
+- id: graduation-day
+  title: Graduation day
+  alt: A graduation photograph outside the School of Food Science and Engineering.
+  image: /images/group/graduation-day.webp
+  thumbnail: /images/group/graduation-day-thumb.webp
+  width: 1800
+  height: 1350
+- id: celebrating-together
+  title: Celebrating together
+  alt: Group members celebrating together around a table.
+  image: /images/group/celebrating-together.webp
+  thumbnail: /images/group/celebrating-together-thumb.webp
+  width: 1800
+  height: 1013

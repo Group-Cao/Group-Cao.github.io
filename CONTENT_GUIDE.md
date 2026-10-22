@@ -14,7 +14,15 @@ This website uses [Academic Pages](https://academicpages.github.io/markdown/) wi
 - `files/`: approved public downloads only. Original PDFs, CVs, application documents, and presentations remain outside the published site.
 
 Student IDs and private contact details are not published. English names can be corrected in `_data/lab.yml` without changing page templates.
-Student records contain the name and year only; do not add academic/professional degree tracks to the page.
+Student records show the entry year without academic/professional degree tracks. Portraits, undergraduate education, completed postgraduate education for doctoral students and postdocs, and research interests were added from the October 22, 2026 member information workbook. A master's student's current SCUT program must not be described as an already completed degree.
+
+Member cards are rendered by `_includes/member-card.html`. They automatically link group papers with an exact author-name match in `_publications/`. `_data/member_publications.yml` holds additional publications supplied by members, including work outside this group; these do not become Cao Group publication records. Use verified DOI links where available. Existing group publication metadata takes precedence over abbreviated or inconsistent citations in the information workbook.
+
+## Group photo gallery
+
+The homepage and `/gallery/` share `_includes/group-gallery.html`, with photos and captions in `_data/gallery.yml` and behavior in `assets/js/group-gallery.js`. The gallery supports native horizontal scrolling, previous/next buttons, keyboard navigation, thumbnails, and an enlarged dialog. The automatic slideshow can be paused, pauses after manual navigation, and respects reduced-motion preferences. It stops while offscreen or in a hidden tab.
+
+Use the real group photographs in `images/group/`, retain the full composition so people are not cropped out, and provide descriptive alt text. The display WebP files and thumbnails omit source EXIF metadata. Original photographs and the source member workbook remain in the ignored `资料/` directory. Add dates, locations, or names to captions only when confirmed.
 
 ## Add a publication
 

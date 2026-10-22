@@ -15,32 +15,25 @@ permalink: /people/
   </div>
 </section>
 
+<p class="lab-people-intro">Meet the researchers in our group, and explore their interests, educational backgrounds, and publications. For moments beyond the lab, visit our <a href="{{ '/gallery/' | relative_url }}">group gallery</a>.</p>
+
 <h2>Postdoctoral Researchers</h2>
 <div class="lab-team-grid">
 {% for person in site.data.lab.postdocs %}
-  <section class="lab-member">
-    <h3>{{ person.name }} <span lang="zh">{{ person.name_zh }}</span></h3>
-    <p>Postdoctoral researcher</p>
-  </section>
+  {% include member-card.html person=person %}
 {% endfor %}
 </div>
 
 <h2>Doctoral Students</h2>
 <div class="lab-team-grid">
 {% for person in site.data.lab.doctoral_students %}
-  <section class="lab-member">
-    <h3>{{ person.name }} <span lang="zh">{{ person.name_zh }}</span></h3>
-    <p>{{ person.year }}</p>
-  </section>
+  {% include member-card.html person=person %}
 {% endfor %}
 </div>
 
 <h2>Master’s Students</h2>
 <div class="lab-team-grid">
 {% for person in site.data.lab.masters_students %}
-  <section class="lab-member">
-    <h3>{{ person.name }} <span lang="zh">{{ person.name_zh }}</span></h3>
-    <p>{{ person.year }}</p>
-  </section>
+  {% include member-card.html person=person %}
 {% endfor %}
 </div>

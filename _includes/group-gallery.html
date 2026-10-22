@@ -1,0 +1,40 @@
+<section class="lab-gallery" data-group-gallery aria-label="Cao Group photo gallery" aria-roledescription="carousel">
+  <div class="lab-gallery-toolbar" data-gallery-controls hidden>
+    <p class="lab-gallery-counter" data-gallery-counter aria-live="off">1 / {{ site.data.gallery.size }}</p>
+    <div class="lab-gallery-actions">
+      <button type="button" data-gallery-play aria-label="Pause slideshow">Pause</button>
+      <button type="button" data-gallery-prev aria-label="Previous photo">←</button>
+      <button type="button" data-gallery-next aria-label="Next photo">→</button>
+    </div>
+  </div>
+  <div class="lab-gallery-track" data-gallery-track tabindex="0" aria-label="Group photos. Use the left and right arrow keys to browse.">
+    {% for photo in site.data.gallery %}
+    <figure class="lab-gallery-slide" data-gallery-slide role="group" aria-roledescription="slide" aria-label="{{ forloop.index }} of {{ site.data.gallery.size }}: {{ photo.title | escape }}">
+      <a href="{{ photo.image | relative_url }}" data-gallery-open aria-label="Enlarge photo: {{ photo.title | escape }}">
+        <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy" decoding="async">
+      </a>
+      <figcaption>{{ photo.title }}</figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+  <div class="lab-gallery-thumbnails" data-gallery-thumbnails hidden aria-label="Choose a photo">
+    {% for photo in site.data.gallery %}
+    <button type="button" data-gallery-select="{{ forloop.index0 }}" aria-label="Show photo {{ forloop.index }}: {{ photo.title | escape }}"{% if forloop.first %} aria-current="true"{% endif %}>
+      <img src="{{ photo.thumbnail | relative_url }}" alt="" width="100" height="75" loading="lazy" decoding="async">
+    </button>
+    {% endfor %}
+  </div>
+  <p class="lab-gallery-hint">Swipe or use the arrows to browse. Select a photo to enlarge it.</p>
+  <dialog class="lab-gallery-dialog" data-gallery-dialog aria-label="Enlarged group photo">
+    <div class="lab-gallery-dialog-bar">
+      <p data-gallery-dialog-caption></p>
+      <button type="button" data-gallery-close aria-label="Close enlarged photo">Close ×</button>
+    </div>
+    <img data-gallery-dialog-image alt="">
+    <div class="lab-gallery-dialog-nav">
+      <button type="button" data-gallery-dialog-prev aria-label="Previous enlarged photo">← Previous</button>
+      <button type="button" data-gallery-dialog-next aria-label="Next enlarged photo">Next →</button>
+    </div>
+  </dialog>
+</section>
+<script type="module" src="{{ '/assets/js/group-gallery.js' | relative_url }}"></script>
