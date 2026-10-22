@@ -2,5 +2,5 @@
 <article class="lab-member-paper">
   <h3>{% if include.group %}<a href="{{ member_paper.url | relative_url }}">{{ member_paper.title | escape }}</a>{% elsif member_paper.doi %}<a href="https://doi.org/{{ member_paper.doi }}">{{ member_paper.title | escape }}</a>{% else %}{{ member_paper.title | escape }}{% endif %}</h3>
   <p class="lab-member-paper-authors">{% include publication-authors.html authors=member_paper.authors %}</p>
-  <p class="lab-member-paper-meta">{{ member_paper.venue }} · {{ member_paper.year }}{% if member_paper.citation %} · {{ member_paper.citation }}{% else %}{% if member_paper.volume %} · {{ member_paper.volume }}{% if member_paper.issue %}({{ member_paper.issue }}){% endif %}{% endif %}{% if member_paper.pages %}, {{ member_paper.pages }}{% endif %}{% endif %}</p>
+  <p class="lab-member-paper-meta">{{ member_paper.venue }} · {{ member_paper.year }}{% if member_paper.citation != blank %} · {{ member_paper.citation }}{% else %}{% if member_paper.volume != blank %} · {{ member_paper.volume }}{% if member_paper.issue != blank %}({{ member_paper.issue }}){% endif %}{% endif %}{% if member_paper.pages != blank %}{% if member_paper.volume != blank %}, {% else %} · {% endif %}{{ member_paper.pages }}{% endif %}{% endif %}</p>
 </article>
