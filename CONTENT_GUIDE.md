@@ -70,6 +70,12 @@ Use an actual figure or graphical abstract from the paper and credit its source.
 
 An `Issue cover` must match the paper's journal, volume, and issue. If no verified image is available, omit `cover`, `cover_label`, and `cover_source`; the page displays no cover information or empty placeholder. Do not display generic publisher artwork as an issue cover or substitute another issue's artwork.
 
+### Papers added on October 24, 2026
+
+The cutinase/aromatic-ester paper (Food Chemistry 532, Part 3, 151695; DOI `10.1016/j.foodchem.2026.151695`) and the magnetic Pickering-emulsion paper (International Journal of Biological Macromolecules, 154985; DOI `10.1016/j.ijbiomac.2026.154985`) use the full author order from Crossref and PubMed. PubMed's electronic publication dates are October 20 and October 22, respectively. The latter differs from the publisher's October 23 availability display; the explicit electronic publication date is used for sorting. The Food Chemistry issue is dated December 15, so its future issue date must not replace the online date.
+
+PubMed identifies electronic correspondence addresses for Yufei Cao and Wenyong Lou on both papers. First-author markers identify Mengyao Yu and Cong Zhang, respectively; no additional equal-contribution roles are asserted without an explicit article note. Full-text PDFs are still needed to check any co-first author notes and select representative figures. These two records currently omit figure and cover fields, so no empty image placeholders are displayed. Add only real figures from the respective papers and independently verified issue covers. The Food Chemistry paper automatically appears on Hui Liang's and Canyu Zhang's member pages.
+
 ### Cover status at the October 2026 update
 
 - 8 verified issue covers.
