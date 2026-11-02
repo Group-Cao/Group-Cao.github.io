@@ -20,7 +20,10 @@ research:
   papers:
   - 10.1038/s44160-025-00898-1
   - 10.1021/acsnano.5c13712
-  - 10.1016/S1872-2067(25)64827-3
+  - 10.1016/s1872-2067(25)64827-3
+  - 10.1021/jacs.6c13996
+  - 10.1021/jacsau.2c00077
+  - 10.1039/c9nr07381g
 - id: enzyme-design
   title: Mechanism-guided and AI-assisted enzyme design
   question: Can we improve enzyme function by understanding the motions and interactions that enable catalysis?
@@ -37,7 +40,8 @@ research:
   image_credit: Chen et al., Angewandte Chemie International Edition (2025)
   papers:
   - 10.1002/anie.202511131
-  - 10.1039/D5GC03435C
+  - 10.1039/d5gc03435c
+  - 10.1038/s41467-024-54298-8
 - id: hybrid-catalysis
   title: Chemoenzymatic and electrobiocatalytic synthesis
   question: How can biological and chemical catalysts work together in compatible reaction environments?
@@ -46,25 +50,23 @@ research:
     reactions, and the upgrading of simple carbon feedstocks.
   topics:
   - Cooperative enzyme–metal catalysis and artificial catalytic microenvironments
-  - Multiphase reaction systems and Pickering emulsions
   - Electrochemical carbon conversion coupled with biocatalysis
-  image: /images/research/hybrid-catalysis.webp
-  image_alt: Bio–nano interactions and protein participation in metal–organic framework formation
-  image_source: https://doi.org/10.1021/acsnano.5c13712
-  image_credit: Qiao et al., ACS Nano (2025)
+  image: /images/research/chemo-electrobiocatalytic-synthesis.webp
+  image_alt: Enzyme–palladium cluster assembly alongside a copper catalyst interface showing local pH and adsorbed hydroxide and CO species
+  image_credit: Cao Group
   papers:
-  - 10.1016/j.cej.2025.167562
-  - 10.1039/D5IM00356C
+  - 10.1038/s41929-019-0305-8
+  - 10.1038/s41557-025-02061-x
+  - 10.1038/s41467-023-37898-8
+  - 10.1039/d5im00356c
 - id: food-biotechnology
   title: Sustainable biosynthesis and food biotechnology
   question: How can engineered enzymes and cells provide efficient routes to useful food and bioactive molecules?
   description: We develop enzyme cascades and microbial pathways for terpenoids, flavonoids, rare ginsenosides,
-    and related compounds. Our wider food-biotechnology interests include functional materials, molecular recognition,
-    food analysis, and the use of computational methods to understand and improve these systems.
+    and related compounds.
   topics:
   - Pathway engineering and orthogonal precursor supply in yeast
-  - Enzyme fusion and immobilization for selective biotransformation
-  - Functional food ingredients, food analysis, and data-informed biotechnology
+  - Mining, design, and engineering of enzymes in biosynthetic pathways
   image: /images/research/biosynthesis.webp
   image_alt: Engineering metabolic routes for biosynthesis in yeast
   image_source: https://doi.org/10.1038/s41467-024-54298-8
@@ -73,6 +75,8 @@ research:
   - 10.1038/s41467-024-54298-8
   - 10.1016/j.cej.2026.173977
   - 10.1021/acs.jafc.6c09373
+  - 10.1039/d5gc03435c
+  - 10.1021/acs.jafc.6c05419
 pi:
   name: Yufei Cao
   name_zh: 曹宇飞

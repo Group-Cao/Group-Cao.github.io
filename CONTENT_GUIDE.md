@@ -14,6 +14,8 @@ This website uses [Academic Pages](https://academicpages.github.io/markdown/) wi
 - `files/`: approved public downloads only. Original PDFs, CVs, application documents, and presentations remain outside the published site.
 
 Student IDs and private contact details are not published. English names can be corrected in `_data/lab.yml` without changing page templates.
+
+Research-theme reference lists use lowercase DOIs in `_data/lab.yml`, matched to `_publications/` by `_pages/research.html` so every reference displays its journal, year, and DOI. Keep each DOI unique within a theme. The chemoenzymatic/electrobiocatalytic image was exported from the user's `资料/Figure3.pptx` on November 2, 2026; only blank slide margins were trimmed, and the scientific artwork and labels were preserved. It is credited to Cao Group. The original slide deck stays outside the published site.
 Student records show the entry year without academic/professional degree tracks. Portraits, undergraduate education, completed postgraduate education for doctoral students and postdocs, and research interests were added from the October 22, 2026 member information workbook. A master's student's current SCUT program must not be described as an already completed degree.
 
 Member cards in `/people/` are rendered by `_includes/member-card.html` and show only a portrait, name, role, entry year, and research interests. The complete card links to `/people/<member-id>/`. Each member has a short page record in `_pages/members/`, rendered with `_layouts/member.html`; education and publications appear on that detail page only. The user confirmed postdoctoral entry years as 2026 for Zhenru Zhou and 2024 for Canyu Zhang.

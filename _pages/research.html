@@ -19,12 +19,12 @@ excerpt: "Multiscale enzyme catalyst design, mechanism-guided engineering, hybri
   <p class="lab-question">{{ area.question }}</p>
   <figure class="lab-research-figure">
     <a href="{{ area.image | relative_url }}"><img src="{{ area.image | relative_url }}" alt="{{ area.image_alt | escape }}" loading="lazy"></a>
-    <figcaption>Representative research figure · <a href="{{ area.image_source }}">{{ area.image_credit }}</a></figcaption>
+    <figcaption>Representative research figure · {% if area.image_source %}<a href="{{ area.image_source }}">{{ area.image_credit | escape }}</a>{% else %}{{ area.image_credit | escape }}{% endif %}</figcaption>
   </figure>
   <p>{{ area.description }}</p>
   <ul>{% for topic in area.topics %}<li>{{ topic }}</li>{% endfor %}</ul>
   <p class="lab-related"><strong>Related publications</strong><br>
-  {% for doi in area.papers %}<a href="https://doi.org/{{ doi }}">{{ doi }}</a>{% unless forloop.last %}<br>{% endunless %}{% endfor %}
+  {% for doi in area.papers %}{% assign paper = site.publications | where: 'doi', doi | first %}<span class="lab-related-paper">{% if paper %}<em>{{ paper.venue | escape }}</em> ({{ paper.year }}) · {% endif %}<a href="https://doi.org/{{ doi }}"{% if paper %} title="{{ paper.title | escape }}"{% endif %}>DOI: {{ doi }}</a></span>{% unless forloop.last %}<br>{% endunless %}{% endfor %}
   </p>
 </section>
 {% endfor %}
