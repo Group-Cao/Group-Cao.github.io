@@ -1,14 +1,22 @@
 ---
 layout: single
-title: "Join Us"
+title: "Join Us · 加入我们"
 permalink: /join/
 ---
 
-<p class="lab-intro">{{ site.data.lab.recruitment | escape }}</p>
+<section lang="en" aria-labelledby="opportunities-en">
+  <h2 id="opportunities-en">Research opportunities</h2>
+  <p class="lab-intro">{{ site.data.lab.recruitment | escape }}</p>
+</section>
 
-<h2>Contact</h2>
+<section lang="zh-CN" aria-labelledby="opportunities-zh">
+  <h2 id="opportunities-zh">研究与招生机会</h2>
+  <p class="lab-intro">{{ site.data.lab.recruitment_zh | escape }}</p>
+</section>
+
+<h2>Contact · 联系方式</h2>
 {% if site.data.lab.contact.email != empty %}
-  <p>Email: <a href="mailto:{{ site.data.lab.contact.email | escape }}">{{ site.data.lab.contact.email | escape }}</a></p>
+  <p>Email · 邮箱: <a href="mailto:{{ site.data.lab.contact.email | escape }}">{{ site.data.lab.contact.email | escape }}</a></p>
 {% else %}
   <p>Contact details will be added soon.</p>
 {% endif %}

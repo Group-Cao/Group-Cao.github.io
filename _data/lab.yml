@@ -83,9 +83,8 @@ pi:
   role: Associate Professor · Principal Investigator
   photo: /images/people/yufei-cao.jpg
   bio: Yufei Cao is an Associate Professor in the School of Food Science and Engineering at South China University
-    of Technology, where he supervises doctoral and master’s students. His research combines biocatalysis, enzyme
-    design, computational chemistry and biology, and food biotechnology. He joined SCUT in September 2023 after
-    receiving his Ph.D. from Tsinghua University.
+    of Technology. His research combines biocatalysis, enzyme design, computational chemistry and biology, and
+    food biotechnology. He joined SCUT in September 2023 after receiving his Ph.D. from Tsinghua University.
   email: yufeicao@scut.edu.cn
   scholar: https://scholar.google.com/citations?user=3ebq8z8AAAAJ&hl=en
   orcid: https://orcid.org/0000-0002-4742-4009
@@ -285,5 +284,8 @@ contact:
 
     Guangzhou 510640, China'
   map_url: ''
-recruitment: If you are interested in our research, please contact Yufei Cao to discuss opportunities and the relevant
-  SCUT application procedures.
+recruitment: We welcome applicants with backgrounds in biocatalysis, biochemical engineering, computer science,
+  chemistry, and related fields. We recruit postdoctoral researchers, Ph.D. students, and master's students
+  throughout the year. If you are interested in our research, please contact Yufei Cao to discuss research
+  opportunities and the relevant SCUT application procedures.
+recruitment_zh: 课题组常年招收博士后、博士研究生和硕士研究生，欢迎具有生物催化、生物化工、计算机科学、化学及相关学科背景的同学和研究人员加入。如对我们的研究感兴趣，欢迎联系曹宇飞老师，交流研究方向、招生机会及华南理工大学的申请流程。

@@ -6,6 +6,7 @@ This website uses [Academic Pages](https://academicpages.github.io/markdown/) wi
 
 - `_config.yml`: group name, site description, sidebar, affiliation, public email, and academic profile links. Set `url` to the account hostname and `baseurl` to the repository path for a project site.
   This organization site uses `url: https://group-cao.github.io`, `baseurl: ''`, and `repository: Group-Cao/Group-Cao.github.io`.
+  The visible sidebar GitHub link uses `author.github_url: https://github.com/`, as requested; keep the deployment repository setting intact.
 - `_data/lab.yml`: introduction, four research themes, PI profile, postdocs, doctoral students, master's students, and contact details. Update the existing records with confirmed information.
 - `_data/navigation.yml`: menu labels and order.
 - `_pages/about.md`: homepage structure.
@@ -14,6 +15,8 @@ This website uses [Academic Pages](https://academicpages.github.io/markdown/) wi
 - `files/`: approved public downloads only. Original PDFs, CVs, application documents, and presentations remain outside the published site.
 
 Student IDs and private contact details are not published. English names can be corrected in `_data/lab.yml` without changing page templates.
+
+The shared PI biography uses the user's November 2, 2026 wording. The Join Us page displays recruitment text in English (`recruitment`) and Chinese (`recruitment_zh`), with language attributes on each section. The user explicitly confirmed year-round recruitment of postdoctoral researchers, doctoral students, and master's students, welcoming biocatalysis, biochemical engineering, computer science, chemistry, and related backgrounds. Repository visibility was verified as Public on the same date; changing a displayed link does not change GitHub repository access.
 
 Research-theme reference lists use lowercase DOIs in `_data/lab.yml`, matched to `_publications/` by `_pages/research.html` so every reference displays its journal, year, and DOI. Keep each DOI unique within a theme. The chemoenzymatic/electrobiocatalytic image was exported from the user's `资料/Figure3.pptx` on November 2, 2026; only blank slide margins were trimmed, and the scientific artwork and labels were preserved. It is credited to Cao Group. The original slide deck stays outside the published site.
 Student records show the entry year without academic/professional degree tracks. Portraits, undergraduate education, completed postgraduate education for doctoral students and postdocs, and research interests were added from the October 22, 2026 member information workbook. A master's student's current SCUT program must not be described as an already completed degree.
